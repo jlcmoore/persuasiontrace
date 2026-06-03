@@ -1,0 +1,4 @@
+{"corpus": "human_reference", "rounds": 50, "prompt_tokens_estimate": 29332, "completion_tokens_estimate": 9000, "estimated_cost_usd": 0.20833000000000002}
+{"corpus": "structure_target", "rounds": 50, "prompt_tokens_estimate": 27616, "completion_tokens_estimate": 9000, "estimated_cost_usd": 0.20404}
+{"corpus": "full_simulated_target", "rounds": 50, "prompt_tokens_estimate": 30869, "completion_tokens_estimate": 9000, "estimated_cost_usd": 0.2121725}
+{"corpus": "vanilla_llm_target", "rounds": 50, "prompt_tokens_estimate": 26610, "completion_tokens_estimate": 9000, "estimated_cost_usd": 0.201525}

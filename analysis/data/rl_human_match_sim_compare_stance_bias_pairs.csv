@@ -1,0 +1,271 @@
+corpus,source,split,proposition_id,pair_family,mirror_magnitude,for_delta,against_delta,for_minus_against,abs_for_minus_against
+full_simulated_target,debategpt,test,Every citizen should receive a basic income from the government.,very,0.0449913342,0.1572018577128998,0.026773144216072686,0.1304287134968271,0.1304287134968271
+full_simulated_target,debategpt,test,Government surveillance is necessary for national security.,very,0.0056195689,0.011236012827026732,0.0033265215211507604,0.007909491305875972,0.007909491305875972
+full_simulated_target,debategpt,test,Online learning is a suitable replacement for traditional in-person education.,very,0.0581973668,0.0925308084263603,0.048097260966409205,0.044433547459951095,0.044433547459951095
+full_simulated_target,debategpt,test,There should be mandatory quotas for women in leadership positions.,very,0.0489979623,0.04282710972108207,-0.0014214123179454585,0.04424852203902753,0.04424852203902753
+full_simulated_target,debategpt,test,Elected or appointed government officials should be paid the minimum wage.,very,0.0494486187,0.013397902511464228,0.02126623065627764,-0.007868328144813412,0.007868328144813412
+full_simulated_target,debategpt,test,Felons should regain the right to vote.,very,0.0129244553,0.04252871107435781,0.005479393366828678,0.03704931770752913,0.03704931770752913
+full_simulated_target,debategpt,test,The rich should pay more taxes.,very,0.0202085509,0.06935906538949572,0.012324335349598092,0.05703473003989763,0.05703473003989763
+full_simulated_target,debategpt,test,Public college should be tuition-free.,very,0.0351532537,0.00619967044385613,0.019322862145465747,-0.013123191701609617,0.013123191701609617
+full_simulated_target,debategpt,test,The US should ban fossil fuels to combat climate change.,very,0.044294105,0.06786927537854871,0.03050548919860463,0.03736378617994408,0.03736378617994408
+full_simulated_target,debategpt,test,The penny should stay in circulation.,very,0.0932089477,0.053191143888728754,0.02319605575273087,0.029995088135997883,0.029995088135997883
+full_simulated_target,debategpt,test,The US should have mandatory national service.,very,0.079441686,0.24019534727667538,0.03790352141701725,0.20229182585965813,0.20229182585965813
+full_simulated_target,debategpt,test,Artificial intelligence is good for society.,very,0.0172790708,0.028385828268838634,0.01107391566417526,0.017311912604663374,0.017311912604663374
+full_simulated_target,debategpt,test,Social media are making people stupid.,very,0.0408767363,0.048017235980172095,0.01061360164471914,0.037403634335452955,0.037403634335452955
+full_simulated_target,debategpt,test,Governments should have the right to censor the Internet.,very,0.0586635858,0.2209302135835263,0.03480288966392042,0.18612732391960587,0.18612732391960587
+full_simulated_target,debategpt,test,Space exploration is a worthwhile investment for humanity.,very,0.0006916367,0.0006772798312810671,6.632899798009184e-05,0.0006109508333009753,0.0006109508333009753
+full_simulated_target,debategpt,test,The US should provide military aid to Ukraine in its conflict with Russia.,very,0.0879464695,0.23499633845257112,-0.027865838042594904,0.262862176495166,0.262862176495166
+full_simulated_target,debategpt,test,Animals should be used for scientific research.,very,0.040168086,0.06252692334439947,-0.000983490718206692,0.06351041406260616,0.06351041406260616
+full_simulated_target,debategpt,test,Students should have to wear school uniforms.,very,0.0047404036,0.01360847523214764,0.002612108412301417,0.010996366819846223,0.010996366819846223
+full_simulated_target,debategpt,test,There should be international agreements to enforce global climate change policies.,very,0.068926096,0.27471054190059474,0.0067627339694573685,0.26794780793113737,0.26794780793113737
+full_simulated_target,debategpt,test,Abortion should be legal.,very,0.0485240916,0.10780366823333626,0.014132306188574084,0.09367136204476217,0.09367136204476217
+full_simulated_target,debategpt,test,The US should enact more regulations to ensure fair elections.,very,0.0019790272,0.0009832435711864566,0.0008718888989606155,0.0001113546722258411,0.0001113546722258411
+full_simulated_target,debategpt,test,There should be limits on freedom of speech to prevent hate speech.,very,0.0944131557,0.14368419853293724,0.06096395940754884,0.0827202391253884,0.0827202391253884
+full_simulated_target,debategpt,test,There should be standardized testing in schools.,very,0.0166260029,0.013216247292167027,8.371838398890663e-05,0.01313252890817812,0.01313252890817812
+full_simulated_target,debategpt,test,The US should expand ('pack') the Supreme Court.,very,0.02361982,0.18968387725049932,0.011369518855875338,0.17831435839462398,0.17831435839462398
+full_simulated_target,debategpt,test,Colleges should consider race as a factor in admissions to ensure diversity.,very,0.044297599,0.11802367468629574,-0.0601938830291715,0.17821755771546724,0.17821755771546724
+full_simulated_target,debategpt,test,The death penalty should be legal.,very,0.0935079469,0.08290485053306444,0.052647406911615624,0.030257443621448818,0.030257443621448818
+full_simulated_target,debategpt,test,Arts education is as important as science and math in schools.,very,0.0521312568,0.21291870495502174,0.006864986193418687,0.20605371876160306,0.20605371876160306
+full_simulated_target,debategpt,test,Every citizen should receive a basic income from the government.,mid,0.2168992345,0.23579301425149565,0.1656527460335352,0.07014026821796046,0.07014026821796046
+full_simulated_target,debategpt,test,Government surveillance is necessary for national security.,mid,0.2077235042,0.31836208513815467,0.1704544341208718,0.14790765101728287,0.14790765101728287
+full_simulated_target,debategpt,test,Online learning is a suitable replacement for traditional in-person education.,mid,0.3420578907,0.2488844158478305,0.04310064177737338,0.20578377407045712,0.20578377407045712
+full_simulated_target,debategpt,test,There should be mandatory quotas for women in leadership positions.,mid,0.1306410462,0.33520728099258684,0.041153644163156144,0.2940536368294307,0.2940536368294307
+full_simulated_target,debategpt,test,Elected or appointed government officials should be paid the minimum wage.,mid,0.1937282154,0.25337574318655903,0.01499793542718908,0.23837780775936995,0.23837780775936995
+full_simulated_target,debategpt,test,Felons should regain the right to vote.,mid,0.1907047315,0.30751169126000727,-0.08567838669629058,0.39319007795629785,0.39319007795629785
+full_simulated_target,debategpt,test,The rich should pay more taxes.,mid,0.2096145742,0.5713734372279338,0.06562620166789379,0.50574723556004,0.50574723556004
+full_simulated_target,debategpt,test,Public college should be tuition-free.,mid,0.1188142785,0.20372677630542166,-0.02342613833828866,0.22715291464371032,0.22715291464371032
+full_simulated_target,debategpt,test,The US should ban fossil fuels to combat climate change.,mid,0.1863509517,0.21909945145151088,0.11436062012056358,0.1047388313309473,0.1047388313309473
+full_simulated_target,debategpt,test,The penny should stay in circulation.,mid,0.2692610027,0.11112223373692182,0.020759792168766,0.09036244156815582,0.09036244156815582
+full_simulated_target,debategpt,test,The US should have mandatory national service.,mid,0.1826734699,0.20006656962486902,0.03713020955647672,0.1629363600683923,0.1629363600683923
+full_simulated_target,debategpt,test,Artificial intelligence is good for society.,mid,0.1856246035,0.2665846498503994,0.031564708350476756,0.23501994149992267,0.23501994149992267
+full_simulated_target,debategpt,test,Social media are making people stupid.,mid,0.2986979949,0.45231949736090865,0.00035860845462132307,0.45196088890628733,0.45196088890628733
+full_simulated_target,debategpt,test,Governments should have the right to censor the Internet.,mid,0.2765955838,0.4265350119507596,0.15511784670712925,0.27141716524363035,0.27141716524363035
+full_simulated_target,debategpt,test,Space exploration is a worthwhile investment for humanity.,mid,0.2288602107,0.45508133676820606,-0.004523471123397904,0.45960480789160396,0.45960480789160396
+full_simulated_target,debategpt,test,The US should provide military aid to Ukraine in its conflict with Russia.,mid,0.1264772535,0.2344043399795827,-0.00487480092534498,0.2392791409049277,0.2392791409049277
+full_simulated_target,debategpt,test,Animals should be used for scientific research.,mid,0.2960725431,0.1477497563430239,0.026687529046834246,0.12106222729618965,0.12106222729618965
+full_simulated_target,debategpt,test,Students should have to wear school uniforms.,mid,0.2596162161,0.389302399183968,0.06829975319911741,0.32100264598485057,0.32100264598485057
+full_simulated_target,debategpt,test,There should be international agreements to enforce global climate change policies.,mid,0.3450986364,0.2558135227189067,-0.08218756540994654,0.33800108812885327,0.33800108812885327
+full_simulated_target,debategpt,test,Abortion should be legal.,mid,0.2954836919,0.43475564762134067,0.225392728650192,0.20936291897114867,0.20936291897114867
+full_simulated_target,debategpt,test,The US should enact more regulations to ensure fair elections.,mid,0.206640923,0.23201080087730774,0.00987751554641858,0.22213328533088916,0.22213328533088916
+full_simulated_target,debategpt,test,There should be limits on freedom of speech to prevent hate speech.,mid,0.3391234851,0.3429724450048032,0.10191160053238213,0.24106084447242104,0.24106084447242104
+full_simulated_target,debategpt,test,There should be standardized testing in schools.,mid,0.1824618357,0.1855999832812685,0.0046187998808832065,0.1809811834003853,0.1809811834003853
+full_simulated_target,debategpt,test,The US should expand ('pack') the Supreme Court.,mid,0.2136686979,0.297995984139902,0.16827697516754592,0.1297190089723561,0.1297190089723561
+full_simulated_target,debategpt,test,Colleges should consider race as a factor in admissions to ensure diversity.,mid,0.1458712953,0.3955507110230704,-0.018324295975319593,0.41387500699838997,0.41387500699838997
+full_simulated_target,debategpt,test,The death penalty should be legal.,mid,0.1441659352,0.06194171928087186,0.08505276705660714,-0.023111047775735277,0.023111047775735277
+full_simulated_target,debategpt,test,Arts education is as important as science and math in schools.,mid,0.3259778696,0.4918131032592874,-0.08802843282727812,0.5798415360865655,0.5798415360865655
+full_simulated_target,debategpt,test,Every citizen should receive a basic income from the government.,very,0.0163555545,0.010609482533424846,-0.00046577721722174115,0.011075259750646587,0.011075259750646587
+full_simulated_target,debategpt,test,Government surveillance is necessary for national security.,very,0.097314384,0.04641744675253914,0.011394841185704885,0.03502260556683426,0.03502260556683426
+full_simulated_target,debategpt,test,Online learning is a suitable replacement for traditional in-person education.,very,0.091265044,0.013345324096535813,0.01374089988961713,-0.00039557579308131807,0.00039557579308131807
+full_simulated_target,debategpt,test,There should be mandatory quotas for women in leadership positions.,very,0.0274842488,0.005183057749623677,-0.00011656075202481908,0.005299618501648496,0.005299618501648496
+full_simulated_target,debategpt,test,Elected or appointed government officials should be paid the minimum wage.,very,0.0162034895,0.009305993196436931,0.0009049352932204435,0.008401057903216488,0.008401057903216488
+full_simulated_target,debategpt,test,Felons should regain the right to vote.,very,0.0166766868,0.012087753775728707,-0.001291083787732905,0.013378837563461612,0.013378837563461612
+full_simulated_target,debategpt,test,The rich should pay more taxes.,very,0.033314733,0.005718200004976616,0.003999676127826923,0.0017185238771496927,0.0017185238771496927
+full_simulated_target,debategpt,test,Public college should be tuition-free.,very,0.0811065212,0.036437684742988335,0.005886058119815907,0.03055162662317243,0.03055162662317243
+full_simulated_target,debategpt,test,The US should ban fossil fuels to combat climate change.,very,0.0416646752,0.041440590032027505,0.004777750846793549,0.036662839185233956,0.036662839185233956
+full_simulated_target,debategpt,test,The penny should stay in circulation.,very,0.0196899401,0.005044383100943128,0.004635226974758155,0.000409156126184973,0.000409156126184973
+full_simulated_target,debategpt,test,The US should have mandatory national service.,very,0.0342720925,0.009369203833952448,0.014629655537651165,-0.005260451703698717,0.005260451703698717
+full_simulated_target,debategpt,test,Artificial intelligence is good for society.,very,0.086669194,0.021366082067792058,0.04209607472629562,-0.02072999265850356,0.02072999265850356
+full_simulated_target,debategpt,test,Social media are making people stupid.,very,0.0126164362,0.0018528464199460259,0.001087227205018526,0.0007656192149274998,0.0007656192149274998
+full_simulated_target,debategpt,test,Governments should have the right to censor the Internet.,very,0.032809558,0.017603294865565514,0.00034994345036953867,0.017253351415195975,0.017253351415195975
+full_simulated_target,debategpt,test,Space exploration is a worthwhile investment for humanity.,very,0.0845622171,0.02873043698065117,0.025121173318984114,0.003609263661667056,0.003609263661667056
+full_simulated_target,debategpt,test,The US should provide military aid to Ukraine in its conflict with Russia.,very,0.0345657083,0.0060704709088475195,-0.0035031717262236084,0.009573642635071128,0.009573642635071128
+full_simulated_target,debategpt,test,Animals should be used for scientific research.,very,0.0087980088,0.001856856488165139,0.0025589961448828635,-0.0007021396567177245,0.0007021396567177245
+full_simulated_target,debategpt,test,Students should have to wear school uniforms.,very,0.043548985,0.016772086502267587,0.008572496872323532,0.008199589629944055,0.008199589629944055
+full_simulated_target,debategpt,test,There should be international agreements to enforce global climate change policies.,very,0.0589744186,0.042621603933498044,0.005349832791534337,0.03727177114196371,0.03727177114196371
+full_simulated_target,debategpt,test,Abortion should be legal.,very,0.0154091398,0.0424275049111809,0.0021603491984359957,0.040267155712744904,0.040267155712744904
+full_simulated_target,debategpt,test,The US should enact more regulations to ensure fair elections.,very,0.0741156042,0.046948178438064564,0.004976577570501628,0.041971600867562936,0.041971600867562936
+full_simulated_target,debategpt,test,There should be limits on freedom of speech to prevent hate speech.,very,0.0521633944,0.03955357178205058,0.005175211037377947,0.03437836074467263,0.03437836074467263
+full_simulated_target,debategpt,test,There should be standardized testing in schools.,very,0.0501289471,0.01714632364056838,0.004041177275019403,0.013105146365548978,0.013105146365548978
+full_simulated_target,debategpt,test,The US should expand ('pack') the Supreme Court.,very,0.0684565437,0.010375281538813633,0.01886190307738278,-0.008486621538569147,0.008486621538569147
+full_simulated_target,debategpt,test,Colleges should consider race as a factor in admissions to ensure diversity.,very,0.0678844787,0.050167515295425125,0.017663390981670024,0.0325041243137551,0.0325041243137551
+full_simulated_target,debategpt,test,The death penalty should be legal.,very,0.0318634311,0.01711902648481768,-0.02078022930980994,0.03789925579462762,0.03789925579462762
+full_simulated_target,debategpt,test,Arts education is as important as science and math in schools.,very,0.0803992154,0.0492784622440893,0.0013862337475740727,0.04789222849651523,0.04789222849651523
+full_simulated_target,debategpt,test,Every citizen should receive a basic income from the government.,mid,0.1683653382,0.1473874868474063,0.011171131492350495,0.1362163553550558,0.1362163553550558
+full_simulated_target,debategpt,test,Government surveillance is necessary for national security.,mid,0.3192412993,0.11340196404332015,0.0578139048244346,0.055588059218885544,0.055588059218885544
+full_simulated_target,debategpt,test,Online learning is a suitable replacement for traditional in-person education.,mid,0.112591323,0.010024807917748901,0.033812462183385295,-0.023787654265636393,0.023787654265636393
+full_simulated_target,debategpt,test,There should be mandatory quotas for women in leadership positions.,mid,0.2501152005,0.057432114999006356,0.003903602895032887,0.05352851210397347,0.05352851210397347
+full_simulated_target,debategpt,test,Elected or appointed government officials should be paid the minimum wage.,mid,0.1668080211,0.06392863513310493,0.0025800165448113255,0.0613486185882936,0.0613486185882936
+full_simulated_target,debategpt,test,Felons should regain the right to vote.,mid,0.1611690124,0.11707817125039804,0.010271649108560932,0.10680652214183711,0.10680652214183711
+full_simulated_target,debategpt,test,The rich should pay more taxes.,mid,0.33588643,0.03805654699171851,0.0160496889621059,0.022006858029612608,0.022006858029612608
+full_simulated_target,debategpt,test,Public college should be tuition-free.,mid,0.1100815409,0.025761117464660185,0.01857578850626862,0.007185328958391565,0.007185328958391565
+full_simulated_target,debategpt,test,The US should ban fossil fuels to combat climate change.,mid,0.2551850442,0.08595446104799193,0.050591176309892294,0.03536328473809963,0.03536328473809963
+full_simulated_target,debategpt,test,The penny should stay in circulation.,mid,0.3172939853,0.057514884761494744,-0.00285038777897062,0.060365272540465365,0.060365272540465365
+full_simulated_target,debategpt,test,The US should have mandatory national service.,mid,0.1607139462,0.053420835598728844,-0.015672845655117174,0.06909368125384602,0.06909368125384602
+full_simulated_target,debategpt,test,Artificial intelligence is good for society.,mid,0.2538358634,0.07500294710028932,0.041522022644389756,0.03348092445589956,0.03348092445589956
+full_simulated_target,debategpt,test,Social media are making people stupid.,mid,0.3053617596,0.078548475332397,0.004666215587363021,0.07388225974503398,0.07388225974503398
+full_simulated_target,debategpt,test,Governments should have the right to censor the Internet.,mid,0.2786561127,0.09259641959042919,-0.029044583883340302,0.1216410034737695,0.1216410034737695
+full_simulated_target,debategpt,test,Space exploration is a worthwhile investment for humanity.,mid,0.2541414736,0.05408262229515365,0.04917452722663429,0.004908095068519358,0.004908095068519358
+full_simulated_target,debategpt,test,The US should provide military aid to Ukraine in its conflict with Russia.,mid,0.1121443796,0.04995270033638065,0.012462070199570241,0.03749063013681041,0.03749063013681041
+full_simulated_target,debategpt,test,Animals should be used for scientific research.,mid,0.2995499614,0.06595757833022192,0.02933900455717997,0.03661857377304195,0.03661857377304195
+full_simulated_target,debategpt,test,Students should have to wear school uniforms.,mid,0.2235264522,0.029509101596367243,0.0694207062355624,-0.03991160463919516,0.03991160463919516
+full_simulated_target,debategpt,test,There should be international agreements to enforce global climate change policies.,mid,0.3090807033,0.07589027486267308,0.008975855927413234,0.06691441893525985,0.06691441893525985
+full_simulated_target,debategpt,test,Abortion should be legal.,mid,0.1789679669,0.31778414840492886,0.1052855375067322,0.21249861089819666,0.21249861089819666
+full_simulated_target,debategpt,test,The US should enact more regulations to ensure fair elections.,mid,0.1748897916,0.059967702708850656,0.01366794912192748,0.046299753586923176,0.046299753586923176
+full_simulated_target,debategpt,test,There should be limits on freedom of speech to prevent hate speech.,mid,0.2788329754,0.1586800089424517,0.02081288156176775,0.13786712738068396,0.13786712738068396
+full_simulated_target,debategpt,test,There should be standardized testing in schools.,mid,0.246534131,0.04537846657686953,-0.054815889467562884,0.10019435604443241,0.10019435604443241
+full_simulated_target,debategpt,test,The US should expand ('pack') the Supreme Court.,mid,0.2179303463,0.1165154086278431,0.022091953777624074,0.09442345485021902,0.09442345485021902
+full_simulated_target,debategpt,test,Colleges should consider race as a factor in admissions to ensure diversity.,mid,0.1879569515,0.05372699831255556,0.009267556157949386,0.04445944215460618,0.04445944215460618
+full_simulated_target,debategpt,test,The death penalty should be legal.,mid,0.3013892325,0.25067414142217737,0.10098613758616215,0.14968800383601522,0.14968800383601522
+full_simulated_target,debategpt,test,Arts education is as important as science and math in schools.,mid,0.2116856925,0.14765160452511014,0.010274889989631886,0.13737671453547826,0.13737671453547826
+full_simulated_target,debategpt,test,Every citizen should receive a basic income from the government.,very,0.0353224458,0.0037399692397849793,0.00193629504352133,0.0018036741962636493,0.0018036741962636493
+full_simulated_target,debategpt,test,Government surveillance is necessary for national security.,very,0.0700328556,0.0008553377204377072,0.003015573061683763,-0.0021602353412460557,0.0021602353412460557
+full_simulated_target,debategpt,test,Online learning is a suitable replacement for traditional in-person education.,very,0.099540064,0.009159347923928779,0.008134637020534519,0.0010247109033942603,0.0010247109033942603
+full_simulated_target,debategpt,test,There should be mandatory quotas for women in leadership positions.,very,0.0007802269,2.9027588955965857e-05,-2.220446049250313e-16,2.90275889561879e-05,2.90275889561879e-05
+full_simulated_target,debategpt,test,Elected or appointed government officials should be paid the minimum wage.,very,0.0867193926,0.008905140520144891,0.005831974577279908,0.0030731659428649832,0.0030731659428649832
+full_simulated_target,debategpt,test,Felons should regain the right to vote.,very,0.0662066938,0.0025338699424188593,-0.003961375753773977,0.006495245696192836,0.006495245696192836
+full_simulated_target,debategpt,test,The rich should pay more taxes.,very,0.0487939051,0.007709684482865235,0.0009280843155049512,0.006781600167360284,0.006781600167360284
+full_simulated_target,debategpt,test,Public college should be tuition-free.,very,0.0553150093,0.007601178314989666,7.416400602966444e-05,0.007527014308960002,0.007527014308960002
+full_simulated_target,debategpt,test,The US should ban fossil fuels to combat climate change.,very,0.0826283235,0.003728006053050792,0.001999549332217243,0.0017284567208335488,0.0017284567208335488
+full_simulated_target,debategpt,test,The penny should stay in circulation.,very,0.0426673949,2.3169036552687927e-05,-0.001494794513593467,0.001517963550146155,0.001517963550146155
+full_simulated_target,debategpt,test,The US should have mandatory national service.,very,0.077347409,0.008998937773371657,0.0014349943362058637,0.007563943437165793,0.007563943437165793
+full_simulated_target,debategpt,test,Artificial intelligence is good for society.,very,0.0222218466,0.002418961595557774,0.0006242972211286668,0.0017946643744291071,0.0017946643744291071
+full_simulated_target,debategpt,test,Social media are making people stupid.,very,0.0537730758,0.010554096927735568,0.0018855746719964595,0.008668522255739108,0.008668522255739108
+full_simulated_target,debategpt,test,Governments should have the right to censor the Internet.,very,0.0555252338,0.022760189762860525,0.002357148134890963,0.020403041627969562,0.020403041627969562
+full_simulated_target,debategpt,test,Space exploration is a worthwhile investment for humanity.,very,0.0056623894,0.0005255360767973108,0.00012635691738838162,0.00039917915940892914,0.00039917915940892914
+full_simulated_target,debategpt,test,The US should provide military aid to Ukraine in its conflict with Russia.,very,0.0190004034,0.0011766398448239956,0.000390454667911988,0.0007861851769120076,0.0007861851769120076
+full_simulated_target,debategpt,test,Animals should be used for scientific research.,very,0.000934835,0.00017678104277323535,-0.0,0.00017678104277323535,0.00017678104277323535
+full_simulated_target,debategpt,test,Students should have to wear school uniforms.,very,0.0704958834,0.00028960162371444165,-0.0,0.00028960162371444165,0.00028960162371444165
+full_simulated_target,debategpt,test,There should be international agreements to enforce global climate change policies.,very,0.0582099811,0.019458953261031683,0.0028691423838086427,0.01658981087722304,0.01658981087722304
+full_simulated_target,debategpt,test,Abortion should be legal.,very,0.0429150935,0.006498153284750584,-0.0012920445084061427,0.0077901977931567265,0.0077901977931567265
+full_simulated_target,debategpt,test,The US should enact more regulations to ensure fair elections.,very,0.0338606687,0.008994135254186991,5.762028931577401e-05,0.008936514964871217,0.008936514964871217
+full_simulated_target,debategpt,test,There should be limits on freedom of speech to prevent hate speech.,very,0.0201850758,0.010405482094455128,0.004369494613834846,0.006035987480620283,0.006035987480620283
+full_simulated_target,debategpt,test,There should be standardized testing in schools.,very,0.0914714418,0.004621545013880707,-0.00638544979614486,0.011006994810025567,0.011006994810025567
+full_simulated_target,debategpt,test,The US should expand ('pack') the Supreme Court.,very,0.0818262135,0.0050441493129920745,0.005513219948957149,-0.00046907063596507426,0.00046907063596507426
+full_simulated_target,debategpt,test,Colleges should consider race as a factor in admissions to ensure diversity.,very,0.0358339542,0.001307877007926568,-0.011577907760722206,0.012885784768648774,0.012885784768648774
+full_simulated_target,debategpt,test,The death penalty should be legal.,very,0.0941042334,0.013560933692490645,0.00011952856466634909,0.013441405127824296,0.013441405127824296
+full_simulated_target,debategpt,test,Arts education is as important as science and math in schools.,very,0.0103673904,0.0007091285698632675,-0.00017869867209163726,0.0008878272419549048,0.0008878272419549048
+full_simulated_target,debategpt,test,Every citizen should receive a basic income from the government.,mid,0.1371911404,0.0011392128746519903,0.0022973415453536594,-0.0011581286707016691,0.0011581286707016691
+full_simulated_target,debategpt,test,Government surveillance is necessary for national security.,mid,0.2864853713,0.009808252100218573,0.014172378644602857,-0.004364126544384284,0.004364126544384284
+full_simulated_target,debategpt,test,Online learning is a suitable replacement for traditional in-person education.,mid,0.2179997629,0.04055214377207414,0.006524027339125604,0.034028116432948535,0.034028116432948535
+full_simulated_target,debategpt,test,There should be mandatory quotas for women in leadership positions.,mid,0.2058448309,0.004993582322668749,0.004242280281552824,0.0007513020411159255,0.0007513020411159255
+full_simulated_target,debategpt,test,Elected or appointed government officials should be paid the minimum wage.,mid,0.2436512728,0.012694040298444675,0.0007249274984582055,0.01196911279998647,0.01196911279998647
+full_simulated_target,debategpt,test,Felons should regain the right to vote.,mid,0.3161215905,0.03911925522682336,0.0015327614364543107,0.03758649379036905,0.03758649379036905
+full_simulated_target,debategpt,test,The rich should pay more taxes.,mid,0.3490207665,0.035009230492446364,0.0060959319015087,0.028913298590937664,0.028913298590937664
+full_simulated_target,debategpt,test,Public college should be tuition-free.,mid,0.1782437767,0.01812846954281011,-0.0003020405343431287,0.01843051007715324,0.01843051007715324
+full_simulated_target,debategpt,test,The US should ban fossil fuels to combat climate change.,mid,0.1591244846,0.01877167883637937,0.0031242038965879626,0.015647474939791406,0.015647474939791406
+full_simulated_target,debategpt,test,The penny should stay in circulation.,mid,0.1787149972,0.0024646462845381023,-0.000666028967934662,0.0031306752524727643,0.0031306752524727643
+full_simulated_target,debategpt,test,The US should have mandatory national service.,mid,0.2059474566,0.010829600248066368,0.004730115913961774,0.0060994843341045935,0.0060994843341045935
+full_simulated_target,debategpt,test,Artificial intelligence is good for society.,mid,0.1622909931,0.03856619714996398,0.010463240792718431,0.02810295635724555,0.02810295635724555
+full_simulated_target,debategpt,test,Social media are making people stupid.,mid,0.303996963,0.017356884657321436,0.002650986655642229,0.014705898001679207,0.014705898001679207
+full_simulated_target,debategpt,test,Governments should have the right to censor the Internet.,mid,0.2289807141,0.03608133674106023,-0.015828914675175998,0.05191025141623623,0.05191025141623623
+full_simulated_target,debategpt,test,Space exploration is a worthwhile investment for humanity.,mid,0.2198503763,0.07395826066340555,0.02210577304859218,0.05185248761481337,0.05185248761481337
+full_simulated_target,debategpt,test,The US should provide military aid to Ukraine in its conflict with Russia.,mid,0.1964148387,0.00018835379709830624,-0.0139763306771169,0.014164684474215206,0.014164684474215206
+full_simulated_target,debategpt,test,Animals should be used for scientific research.,mid,0.2859232756,0.038570669030174254,0.01059784093123095,0.027972828098943303,0.027972828098943303
+full_simulated_target,debategpt,test,Students should have to wear school uniforms.,mid,0.1292794493,0.0027967572128241025,-0.00035147373066757304,0.0031482309434916755,0.0031482309434916755
+full_simulated_target,debategpt,test,There should be international agreements to enforce global climate change policies.,mid,0.2641940883,0.06505933739845121,0.004894431462196036,0.060164905936255175,0.060164905936255175
+full_simulated_target,debategpt,test,Abortion should be legal.,mid,0.2370147383,0.12039017112113023,0.027552840472932383,0.09283733064819785,0.09283733064819785
+full_simulated_target,debategpt,test,The US should enact more regulations to ensure fair elections.,mid,0.1405119391,0.03878944406032761,0.0006892018235948871,0.03810024223673272,0.03810024223673272
+full_simulated_target,debategpt,test,There should be limits on freedom of speech to prevent hate speech.,mid,0.3238934695,0.026913410443754504,0.0003653605046403108,0.026548049939114193,0.026548049939114193
+full_simulated_target,debategpt,test,There should be standardized testing in schools.,mid,0.1183615771,0.021214173350021417,-0.010136303910946332,0.03135047726096775,0.03135047726096775
+full_simulated_target,debategpt,test,The US should expand ('pack') the Supreme Court.,mid,0.1728543726,0.02836415405487655,-0.002558379752476525,0.030922533807353075,0.030922533807353075
+full_simulated_target,debategpt,test,Colleges should consider race as a factor in admissions to ensure diversity.,mid,0.3149457168,0.06865028199391704,-0.00037742476936120095,0.06902770676327824,0.06902770676327824
+full_simulated_target,debategpt,test,The death penalty should be legal.,mid,0.1206963213,0.010375058219909347,0.0003769167382576821,0.009998141481651665,0.009998141481651665
+full_simulated_target,debategpt,test,Arts education is as important as science and math in schools.,mid,0.2278946115,0.025942362200030267,0.0015342871420153115,0.024408075058014955,0.024408075058014955
+vanilla_llm_target,debategpt,test,Every citizen should receive a basic income from the government.,very,0.0353270551,0.044672944922522356,-0.11467294492252234,0.1593458898450447,0.1593458898450447
+vanilla_llm_target,debategpt,test,Government surveillance is necessary for national security.,very,0.0143676841,0.10563231586416147,-0.10563231586416144,0.2112646317283229,0.2112646317283229
+vanilla_llm_target,debategpt,test,Online learning is a suitable replacement for traditional in-person education.,very,0.0714346199,0.028565380115555206,0.001434619884444821,0.027130760231110385,0.027130760231110385
+vanilla_llm_target,debategpt,test,There should be mandatory quotas for women in leadership positions.,very,0.0403365974,0.05966340263486769,-0.07966340263486771,0.1393268052697354,0.1393268052697354
+vanilla_llm_target,debategpt,test,Elected or appointed government officials should be paid the minimum wage.,very,0.0708982155,0.04910178446042476,-0.04910178446042479,0.09820356892084955,0.09820356892084955
+vanilla_llm_target,debategpt,test,Felons should regain the right to vote.,very,0.0581666546,0.19183334542504002,-0.0018333454250401005,0.19366669085008012,0.19366669085008012
+vanilla_llm_target,debategpt,test,The rich should pay more taxes.,very,0.0811822723,0.09881772768313851,0.0011822723168615212,0.09763545536627699,0.09763545536627699
+vanilla_llm_target,debategpt,test,Public college should be tuition-free.,very,0.0191996836,0.10080031642678303,-0.02080031642678304,0.12160063285356607,0.12160063285356607
+vanilla_llm_target,debategpt,test,The US should ban fossil fuels to combat climate change.,very,0.0096037769,0.1903962231023677,-0.0703962231023676,0.2607924462047353,0.2607924462047353
+vanilla_llm_target,debategpt,test,The penny should stay in circulation.,very,0.0981463304,0.02185366960327903,-0.00185366960327904,0.02370733920655807,0.02370733920655807
+vanilla_llm_target,debategpt,test,The US should have mandatory national service.,very,0.0289880441,0.0010119558924030977,-0.941011955892403,0.9420239117848062,0.9420239117848062
+vanilla_llm_target,debategpt,test,Artificial intelligence is good for society.,very,0.0255567241,0.3244432758853784,-0.004443275885378406,0.3288865517707568,0.3288865517707568
+vanilla_llm_target,debategpt,test,Social media are making people stupid.,very,0.0151437134,0.10485628663396243,-0.0048562866339624255,0.10971257326792486,0.10971257326792486
+vanilla_llm_target,debategpt,test,Governments should have the right to censor the Internet.,very,0.0928997427,0.027100257310194664,0.002899742689805307,0.024200514620389357,0.024200514620389357
+vanilla_llm_target,debategpt,test,Space exploration is a worthwhile investment for humanity.,very,0.0567626643,0.3632373357489558,-0.023237335748955812,0.3864746714979116,0.3864746714979116
+vanilla_llm_target,debategpt,test,The US should provide military aid to Ukraine in its conflict with Russia.,very,0.0042878355,0.1457121645143619,0.004287835485638047,0.14142432902872384,0.14142432902872384
+vanilla_llm_target,debategpt,test,Animals should be used for scientific research.,very,0.0890842473,0.050915752749772794,-0.030915752749772762,0.08183150549954556,0.08183150549954556
+vanilla_llm_target,debategpt,test,Students should have to wear school uniforms.,very,0.0513982903,0.06860170972648594,0.0013982902735140135,0.06720341945297192,0.06720341945297192
+vanilla_llm_target,debategpt,test,There should be international agreements to enforce global climate change policies.,very,0.0292453585,0.22075464151247015,-0.0007546415124701777,0.22150928302494033,0.22150928302494033
+vanilla_llm_target,debategpt,test,Abortion should be legal.,very,0.0483388608,0.051661139193041584,-0.001661139193041672,0.053322278386083256,0.053322278386083256
+vanilla_llm_target,debategpt,test,The US should enact more regulations to ensure fair elections.,very,0.0143270736,0.5356729263629452,0.004327073637054868,0.5313458527258903,0.5313458527258903
+vanilla_llm_target,debategpt,test,There should be limits on freedom of speech to prevent hate speech.,very,0.0264009447,0.09359905533978852,-0.0035990553397885483,0.09719811067957707,0.09719811067957707
+vanilla_llm_target,debategpt,test,There should be standardized testing in schools.,very,0.0308379386,0.21916206143078257,-0.1891620614307825,0.40832412286156505,0.40832412286156505
+vanilla_llm_target,debategpt,test,The US should expand ('pack') the Supreme Court.,very,0.0327079005,0.04729209948389702,0.0027079005161029235,0.04458419896779409,0.04458419896779409
+vanilla_llm_target,debategpt,test,Colleges should consider race as a factor in admissions to ensure diversity.,very,0.0645955535,0.07540444647879663,-0.8754044464787966,0.9508088929575932,0.9508088929575932
+vanilla_llm_target,debategpt,test,The death penalty should be legal.,very,0.0849741106,0.03502588942754668,0.0049741105724533385,0.030051778855093345,0.030051778855093345
+vanilla_llm_target,debategpt,test,Arts education is as important as science and math in schools.,very,0.001074199,0.2989258010212683,0.001074198978731733,0.2978516020425366,0.2978516020425366
+vanilla_llm_target,debategpt,test,Every citizen should receive a basic income from the government.,mid,0.3496122355,0.05038776447303306,0.029612235526967012,0.020775528946066046,0.020775528946066046
+vanilla_llm_target,debategpt,test,Government surveillance is necessary for national security.,mid,0.2355600766,0.004439923440312521,-0.004439923440312521,0.008879846880625042,0.008879846880625042
+vanilla_llm_target,debategpt,test,Online learning is a suitable replacement for traditional in-person education.,mid,0.2694423089,0.000557691092988144,-0.410557691092988,0.41111538218597615,0.41111538218597615
+vanilla_llm_target,debategpt,test,There should be mandatory quotas for women in leadership positions.,mid,0.2562534832,0.003746516807509981,-0.0037465168075099253,0.007493033615019906,0.007493033615019906
+vanilla_llm_target,debategpt,test,Elected or appointed government officials should be paid the minimum wage.,mid,0.2715287582,-0.0015287581654789273,-0.418471241834521,0.4169424836690421,0.4169424836690421
+vanilla_llm_target,debategpt,test,Felons should regain the right to vote.,mid,0.153171155,0.046828845040816885,0.0031711549591830757,0.04365769008163381,0.04365769008163381
+vanilla_llm_target,debategpt,test,The rich should pay more taxes.,mid,0.2328938359,-0.0028938359346742937,0.0028938359346742937,-0.005787671869348587,0.005787671869348587
+vanilla_llm_target,debategpt,test,Public college should be tuition-free.,mid,0.3006943715,-0.0006943715034734566,0.02069437150347342,-0.021388743006946875,0.021388743006946875
+vanilla_llm_target,debategpt,test,The US should ban fossil fuels to combat climate change.,mid,0.1750480392,0.10495196084642472,-0.04495196084642461,0.14990392169284933,0.14990392169284933
+vanilla_llm_target,debategpt,test,The penny should stay in circulation.,mid,0.1249760954,-0.004976095405269193,0.004976095405269221,-0.009952190810538414,0.009952190810538414
+vanilla_llm_target,debategpt,test,The US should have mandatory national service.,mid,0.2849963304,-0.004996330370357904,-0.035003669629641965,0.03000733925928406,0.03000733925928406
+vanilla_llm_target,debategpt,test,Artificial intelligence is good for society.,mid,0.2639177651,0.1160822348949419,0.003917765105058146,0.11216446978988376,0.11216446978988376
+vanilla_llm_target,debategpt,test,Social media are making people stupid.,mid,0.2577368331,0.0022631668758406054,-0.0022631668758406054,0.004526333751681211,0.004526333751681211
+vanilla_llm_target,debategpt,test,Governments should have the right to censor the Internet.,mid,0.2350701227,0.004929877341165262,-0.004929877341165234,0.009859754682330496,0.009859754682330496
+vanilla_llm_target,debategpt,test,Space exploration is a worthwhile investment for humanity.,mid,0.1842885416,0.03571145844461618,-0.025711458444616087,0.061422916889232265,0.061422916889232265
+vanilla_llm_target,debategpt,test,The US should provide military aid to Ukraine in its conflict with Russia.,mid,0.2378187539,0.002181246066800091,-0.0021812460668000355,0.0043624921336001266,0.0043624921336001266
+vanilla_llm_target,debategpt,test,Animals should be used for scientific research.,mid,0.1043727408,0.11562725924995101,-0.045627259249951035,0.16125451849990205,0.16125451849990205
+vanilla_llm_target,debategpt,test,Students should have to wear school uniforms.,mid,0.2498177989,0.00018220105502059214,-0.00018220105502053663,0.00036440211004112877,0.00036440211004112877
+vanilla_llm_target,debategpt,test,There should be international agreements to enforce global climate change policies.,mid,0.2447011328,0.10529886723086002,0.004701132769139971,0.10059773446172005,0.10059773446172005
+vanilla_llm_target,debategpt,test,Abortion should be legal.,mid,0.1268499195,0.003150080459126542,-0.0031500804591265696,0.0063001609182531115,0.0063001609182531115
+vanilla_llm_target,debategpt,test,The US should enact more regulations to ensure fair elections.,mid,0.1605676087,-0.0005676087143155206,0.0005676087143154929,-0.0011352174286310135,0.0011352174286310135
+vanilla_llm_target,debategpt,test,There should be limits on freedom of speech to prevent hate speech.,mid,0.1317463137,-0.0017463136912502508,0.001746313691250223,-0.003492627382500474,0.003492627382500474
+vanilla_llm_target,debategpt,test,There should be standardized testing in schools.,mid,0.2858090473,0.11419095271461027,-0.034190952714610146,0.14838190542922042,0.14838190542922042
+vanilla_llm_target,debategpt,test,The US should expand ('pack') the Supreme Court.,mid,0.3491881694,0.0008118305502797796,-0.0008118305502797796,0.0016236611005595591,0.0016236611005595591
+vanilla_llm_target,debategpt,test,Colleges should consider race as a factor in admissions to ensure diversity.,mid,0.2510385641,-0.0010385640561014764,-0.04896143594389857,0.04792287188779709,0.04792287188779709
+vanilla_llm_target,debategpt,test,The death penalty should be legal.,mid,0.1344953648,-0.004495364828490972,0.004495364828491,-0.008990729656981972,0.008990729656981972
+vanilla_llm_target,debategpt,test,Arts education is as important as science and math in schools.,mid,0.2289739123,0.0010260876645331596,-0.4510260876645331,0.4520521753290663,0.4520521753290663
+structure_target,debategpt,test,Every citizen should receive a basic income from the government.,very,0.0012202101,0.09877978994006975,-0.2787797899400698,0.37755957988013955,0.37755957988013955
+structure_target,debategpt,test,Government surveillance is necessary for national security.,very,0.0937296144,0.026270385644675792,-0.5262703856446758,0.5525407712893515,0.5525407712893515
+structure_target,debategpt,test,Online learning is a suitable replacement for traditional in-person education.,very,0.0677318392,0.11226816081973932,-0.15226816081973926,0.2645363216394786,0.2645363216394786
+structure_target,debategpt,test,There should be mandatory quotas for women in leadership positions.,very,0.0753234677,0.07467653228105443,-0.08467653228105443,0.15935306456210885,0.15935306456210885
+structure_target,debategpt,test,Felons should regain the right to vote.,very,0.01004733,0.9199526700133175,4.732998668255384e-05,0.9199053400266349,0.9199053400266349
+structure_target,debategpt,test,The rich should pay more taxes.,very,0.0905861603,0.009413839733592194,0.000586160266407787,0.008827679467184407,0.008827679467184407
+structure_target,debategpt,test,Public college should be tuition-free.,very,0.0024960755,0.04750392451875948,-0.21750392451875944,0.26500784903751895,0.26500784903751895
+structure_target,debategpt,test,The US should ban fossil fuels to combat climate change.,very,0.022763996,0.1572360039568145,-0.35723600395681454,0.514472007913629,0.514472007913629
+structure_target,debategpt,test,The penny should stay in circulation.,very,0.0532513602,0.046748639769857964,0.003251360230142053,0.04349727953971591,0.04349727953971591
+structure_target,debategpt,test,The US should have mandatory national service.,very,0.0765814043,0.003418595686872583,-0.7734185956868725,0.7768371913737451,0.7768371913737451
+structure_target,debategpt,test,Artificial intelligence is good for society.,very,0.0204489486,0.1995510514410935,-0.1595510514410936,0.35910210288218714,0.35910210288218714
+structure_target,debategpt,test,Elected or appointed government officials should be paid the minimum wage.,very,0.0472046345,0.07279536546899085,-0.772795365468991,0.8455907309379818,0.8455907309379818
+structure_target,debategpt,test,Social media are making people stupid.,very,0.0314437728,0.16855622718435945,-0.14855622718435946,0.31711245436871893,0.31711245436871893
+structure_target,debategpt,test,Governments should have the right to censor the Internet.,very,0.0432340527,0.03676594726967816,0.003234052730321846,0.033531894539356316,0.033531894539356316
+structure_target,debategpt,test,Space exploration is a worthwhile investment for humanity.,very,0.0597110722,0.2202889277538248,-0.00028892775382483027,0.22057785550764963,0.22057785550764963
+structure_target,debategpt,test,The US should provide military aid to Ukraine in its conflict with Russia.,very,0.0933757678,0.13662423223328604,0.0033757677667139996,0.13324846446657204,0.13324846446657204
+structure_target,debategpt,test,Animals should be used for scientific research.,very,0.0507694167,0.06923058325938555,0.0007694167406143704,0.06846116651877118,0.06846116651877118
+structure_target,debategpt,test,Students should have to wear school uniforms.,very,0.0071053771,0.24289462287532287,-0.17289462287532298,0.41578924575064585,0.41578924575064585
+structure_target,debategpt,test,There should be international agreements to enforce global climate change policies.,very,0.0556009454,0.16439905463428459,-0.004399054634284694,0.16879810926856928,0.16879810926856928
+structure_target,debategpt,test,Abortion should be legal.,very,0.0705602624,0.6294397376030769,0.0005602623969230835,0.6288794752061538,0.6288794752061538
+structure_target,debategpt,test,The US should enact more regulations to ensure fair elections.,very,0.0785186258,0.2714813741887852,-0.16148137418878517,0.43296274837757037,0.43296274837757037
+structure_target,debategpt,test,There should be limits on freedom of speech to prevent hate speech.,very,0.0445959959,0.295404004087221,0.004595995912778927,0.2908080081744421,0.2908080081744421
+structure_target,debategpt,test,There should be standardized testing in schools.,very,0.048057383,0.1519426170252934,-0.17194261702529334,0.3238852340505868,0.3238852340505868
+structure_target,debategpt,test,The US should expand ('pack') the Supreme Court.,very,0.0028131669,0.04718683312491484,-0.14718683312491487,0.1943736662498297,0.1943736662498297
+structure_target,debategpt,test,Colleges should consider race as a factor in admissions to ensure diversity.,very,0.0380863354,0.0019136645617700218,-0.001913664561770112,0.003827329123540134,0.003827329123540134
+structure_target,debategpt,test,The death penalty should be legal.,very,0.0889436891,-0.008943689143132164,-0.0010563108568678592,-0.007887378286264304,0.007887378286264304
+structure_target,debategpt,test,Arts education is as important as science and math in schools.,very,0.0855505712,0.01444942882405345,-0.004449428824053414,0.018898857648106865,0.018898857648106865
+structure_target,debategpt,test,Every citizen should receive a basic income from the government.,mid,0.2885414474,0.0014585525587375026,-0.03145855255873753,0.03291710511747503,0.03291710511747503
+structure_target,debategpt,test,Government surveillance is necessary for national security.,mid,0.1930693575,0.02693064250061375,-0.03693064250061373,0.06386128500122748,0.06386128500122748
+structure_target,debategpt,test,Online learning is a suitable replacement for traditional in-person education.,mid,0.2183213379,0.021678662059450515,-0.001678662059450442,0.023357324118900957,0.023357324118900957
+structure_target,debategpt,test,There should be mandatory quotas for women in leadership positions.,mid,0.3207804191,-0.0007804190979123216,-0.39921958090208765,0.3984391618041753,0.3984391618041753
+structure_target,debategpt,test,Elected or appointed government officials should be paid the minimum wage.,mid,0.1851858208,0.0048141792082709856,-0.514814179208271,0.519628358416542,0.519628358416542
+structure_target,debategpt,test,Felons should regain the right to vote.,mid,0.3426001535,-0.002600153529140614,0.06260015352914061,-0.06520030705828123,0.06520030705828123
+structure_target,debategpt,test,The rich should pay more taxes.,mid,0.3367274169,0.0032725831087530577,-0.003272583108753002,0.00654516621750606,0.00654516621750606
+structure_target,debategpt,test,Public college should be tuition-free.,mid,0.1813835062,-0.0013835062303057533,0.0013835062303056977,-0.002767012460611451,0.002767012460611451
+structure_target,debategpt,test,The US should ban fossil fuels to combat climate change.,mid,0.2583600837,0.06163991630679472,-0.12163991630679472,0.18327983261358943,0.18327983261358943
+structure_target,debategpt,test,The penny should stay in circulation.,mid,0.2077986504,0.0022013496274302657,-0.002201349627430238,0.004402699254860504,0.004402699254860504
+structure_target,debategpt,test,The US should have mandatory national service.,mid,0.1235896827,-0.00358968273360033,-0.6964103172663998,0.6928206345327994,0.6928206345327994
+structure_target,debategpt,test,Artificial intelligence is good for society.,mid,0.3208915676,0.09910843236820444,0.0008915676317956533,0.09821686473640878,0.09821686473640878
+structure_target,debategpt,test,Social media are making people stupid.,mid,0.2063919385,0.033608061542776124,-0.003608061542776042,0.037216123085552166,0.037216123085552166
+structure_target,debategpt,test,Governments should have the right to censor the Internet.,mid,0.1517278783,0.048272121744159735,-0.06827212174415975,0.11654424348831949,0.11654424348831949
+structure_target,debategpt,test,Space exploration is a worthwhile investment for humanity.,mid,0.1154518026,0.16454819743413404,-0.06454819743413409,0.22909639486826813,0.22909639486826813
+structure_target,debategpt,test,The US should provide military aid to Ukraine in its conflict with Russia.,mid,0.3129494185,-0.0029494185034057985,0.0029494185034057985,-0.005898837006811597,0.005898837006811597
+structure_target,debategpt,test,Animals should be used for scientific research.,mid,0.1518128833,0.02818711674367977,0.0018128832563202302,0.02637423348735954,0.02637423348735954
+structure_target,debategpt,test,Students should have to wear school uniforms.,mid,0.3354223267,0.004577673252365744,-0.044577673252365724,0.04915534650473147,0.04915534650473147
+structure_target,debategpt,test,There should be international agreements to enforce global climate change policies.,mid,0.222730967,0.07726903299636567,-0.16726903299636564,0.2445380659927313,0.2445380659927313
+structure_target,debategpt,test,Abortion should be legal.,mid,0.2590299658,0.0009700342091247816,-0.0009700342091247816,0.0019400684182495631,0.0019400684182495631
+structure_target,debategpt,test,The US should enact more regulations to ensure fair elections.,mid,0.2712776858,-0.0012776858446739148,0.0012776858446739148,-0.0025553716893478295,0.0025553716893478295
+structure_target,debategpt,test,There should be standardized testing in schools.,mid,0.2807938658,0.059206134242278996,0.0007938657577210018,0.058412268484557994,0.058412268484557994
+structure_target,debategpt,test,The US should expand ('pack') the Supreme Court.,mid,0.1549407483,-0.004940748342356666,-0.6650592516576435,0.6601185033152868,0.6601185033152868
+structure_target,debategpt,test,There should be limits on freedom of speech to prevent hate speech.,mid,0.3033303263,-0.0033303263429269037,0.023330326342926866,-0.02666065268585377,0.02666065268585377
+structure_target,debategpt,test,The death penalty should be legal.,mid,0.2868227267,0.0031772732949760796,-0.0031772732949761906,0.00635454658995227,0.00635454658995227
+structure_target,debategpt,test,Arts education is as important as science and math in schools.,mid,0.3360845459,0.00391545409467281,-0.3239154540946727,0.3278309081893455,0.3278309081893455
+structure_target,debategpt,test,Colleges should consider race as a factor in admissions to ensure diversity.,mid,0.204854334,-0.004854334028653595,-0.5451456659713464,0.5402913319426927,0.5402913319426927

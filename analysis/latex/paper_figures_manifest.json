@@ -1,0 +1,209 @@
+{
+  "tables": [
+    {
+      "id": "appendix_proposition_sample_table",
+      "enabled": true,
+      "required": true,
+      "writer": "proposition_samples",
+      "destination_tex": "proposition_sample_table.tex",
+      "section": "appendix",
+      "source_comment": "analysis/latex/proposition_samples.py"
+    },
+    {
+      "id": "appendix_debategpt_bn_samples_table",
+      "enabled": true,
+      "required": true,
+      "writer": "debategpt_bn_samples",
+      "destination_tex": "debategpt_bn_samples_table.tex",
+      "section": "appendix",
+      "source_comment": "analysis/latex/debategpt_bn_samples.py"
+    },
+    {
+      "id": "appendix_external_human_prop_bias_table",
+      "enabled": true,
+      "required": true,
+      "writer": "human_external_prop_bias",
+      "destination_tex": "human_external_prop_bias_table.tex",
+      "section": "appendix",
+      "source_comment": "analysis/latex/human_external_prop_bias_table.py"
+    }
+  ],
+  "figures": [
+    {
+      "id": "results_node_profile_human_likeness_temp",
+      "enabled": false,
+      "required": false,
+      "source_pdf": "analysis/data/simulator_belief_profiles_temp_bn4_human_likeness.pdf",
+      "destination_pdf": "results_node_profile_human_likeness_temp.pdf",
+      "section": "results",
+      "source_comment": "analysis/simulator_belief_profiles.py --plot-format pdf",
+      "defer_reason": "Deprecated for paper export; use counterfactual replay plots."
+    },
+    {
+      "id": "results_llm_judge_human_likeness",
+      "enabled": true,
+      "required": false,
+      "source_pdf": "analysis/data/rl_human_match_sim_compare_simulator_llm_judge_bar.pdf",
+      "destination_pdf": "results_llm_judge_human_likeness.pdf",
+      "section": "results",
+      "source_comment": "analysis/simulator_llm_judge_plot.py"
+    },
+    {
+      "id": "results_stance_bias",
+      "enabled": true,
+      "required": false,
+      "source_pdf": "analysis/figures/results_stance_bias.pdf",
+      "destination_pdf": "results_stance_bias.pdf",
+      "section": "results",
+      "source_comment": "analysis/simulator_stance_bias_plot.py (from *_stance_bias_summary.csv)"
+    },
+    {
+      "id": "results_naive_penalty",
+      "enabled": true,
+      "required": false,
+      "source_pdf": "analysis/figures/results_naive_penalty.pdf",
+      "destination_pdf": "results_naive_penalty.pdf",
+      "section": "results",
+      "source_comment": "analysis/simulator_naive_penalty_plot.py"
+    },
+    {
+      "id": "appendix_model_sweep_policy_rank_by_simulator",
+      "enabled": true,
+      "required": false,
+      "source_pdf": "analysis/figures/model_sweep_policy_rank_by_simulator.pdf",
+      "destination_pdf": "appendix_model_sweep_policy_rank_by_simulator.pdf",
+      "section": "appendix",
+      "source_comment": "analysis/model_sweep_policy_rank_plot.py"
+    },
+    {
+      "id": "results_persuasiveness_bucket_summary",
+      "enabled": true,
+      "required": false,
+      "source_pdf": "analysis/figures/persuasiveness_bucket_summary.pdf",
+      "destination_pdf": "persuasiveness_bucket_summary.pdf",
+      "section": "results",
+      "source_comment": "analysis/persuasiveness_bucket_summary.py"
+    },
+    {
+      "id": "results_rhetoric_llm_nonppt_coefficients",
+      "enabled": true,
+      "required": false,
+      "source_pdf": "analysis/figures/results_rhetoric_llm_nonppt_coefficients.pdf",
+      "destination_pdf": "results_rhetoric_llm_nonppt_coefficients.pdf",
+      "section": "results",
+      "source_comment": "analysis/rhetoric_llm_nonppt_test_plot.py (Ours OLS rhetoric coefficients overlaid with Salvi ordinal rhetoric coefficients; rhetoric terms only)"
+    },
+    {
+      "id": "results_human_clusters_k3_heatmap",
+      "enabled": false,
+      "required": false,
+      "source_pdf": "analysis/data/human_clusters_k3_by_init_bin_heatmap.pdf",
+      "destination_pdf": "results_human_clusters_k3_by_init_bin_heatmap.pdf",
+      "section": "results",
+      "source_comment": "simulation.scripts.build_human_trajectory_cluster_model (deprecated k=3 panel)",
+      "defer_reason": "Moved out of main results; replaced by k=2 PCA panel."
+    },
+    {
+      "id": "results_human_clusters_k3_shapes",
+      "enabled": false,
+      "required": false,
+      "source_pdf": "analysis/data/human_clusters_k3_shapes.pdf",
+      "destination_pdf": "results_human_clusters_k3_shapes.pdf",
+      "section": "results",
+      "source_comment": "simulation.scripts.build_human_trajectory_cluster_model (deprecated k=3 panel)",
+      "defer_reason": "Moved out of main results; replaced by k=2 PCA panel."
+    },
+    {
+      "id": "results_human_clusters_k2_pca_scatter",
+      "enabled": true,
+      "required": false,
+      "source_pdf": "analysis/data/human_clusters_k2_pca_scatter.pdf",
+      "destination_pdf": "results_human_clusters_k2_pca_scatter.pdf",
+      "section": "results",
+      "source_comment": "simulation.scripts.build_human_trajectory_cluster_model (k=2, normalized trajectory features, paper filtered slice)"
+    },
+    {
+      "id": "appendix_human_clusters_k2_init_bin_heatmap",
+      "enabled": true,
+      "required": false,
+      "source_pdf": "analysis/data/human_clusters_k2_by_init_bin_heatmap.pdf",
+      "destination_pdf": "appendix_human_clusters_k2_by_init_bin_heatmap.pdf",
+      "section": "appendix",
+      "source_comment": "simulation.scripts.build_human_trajectory_cluster_model (k=2, normalized trajectory features)"
+    },
+    {
+      "id": "appendix_human_clusters_k2_shapes",
+      "enabled": true,
+      "required": false,
+      "source_pdf": "analysis/data/human_clusters_k2_shapes.pdf",
+      "destination_pdf": "appendix_human_clusters_k2_shapes.pdf",
+      "section": "appendix",
+      "source_comment": "simulation.scripts.build_human_trajectory_cluster_model (k=2, normalized trajectory features)"
+    },
+    {
+      "id": "results_policy_optimization_base_sft_grpo",
+      "enabled": false,
+      "required": false,
+      "source_pdf": "analysis/figures/results_policy_optimization_base_sft_grpo.pdf",
+      "destination_pdf": "results_policy_optimization_base_sft_grpo.pdf",
+      "section": "results",
+      "source_comment": "src/rl/compare_baseline_runs.py + analysis/policy_optimization_base_sft_grpo_plot.py",
+      "defer_reason": "Disabled by default: SFT/GRPO training-analysis figure."
+    },
+    {
+      "id": "results_simulator_rhetoric_dimensions",
+      "enabled": false,
+      "required": false,
+      "source_pdf": "analysis/figures/results_simulator_rhetoric_dimensions.pdf",
+      "destination_pdf": "results_simulator_rhetoric_dimensions.pdf",
+      "section": "results",
+      "source_comment": "TBD",
+      "defer_reason": "TODO: no finished simulator rhetoric-dimensions artifact."
+    },
+    {
+      "id": "results_counterfactual_conditional_score_divergence",
+      "enabled": true,
+      "required": false,
+      "source_pdf": "analysis/data/simulator_counterfactual_replay_social_bn_conditional_score_divergence_plot.pdf",
+      "destination_pdf": "results_counterfactual_replay_conditional_score_divergence.pdf",
+      "section": "results",
+      "source_comment": "analysis/simulator_counterfactual_replay_plot.py (strict conditional average replay error)"
+    },
+    {
+      "id": "appendix_counterfactual_target_error",
+      "enabled": true,
+      "required": false,
+      "source_pdf": "analysis/data/simulator_counterfactual_replay_social_bn_target_error_plot.pdf",
+      "destination_pdf": "appendix_counterfactual_target_error.pdf",
+      "section": "appendix",
+      "source_comment": "analysis/simulator_counterfactual_replay_plot.py"
+    },
+    {
+      "id": "appendix_counterfactual_node_error",
+      "enabled": true,
+      "required": false,
+      "source_pdf": "analysis/data/simulator_counterfactual_replay_social_bn_node_error_plot.pdf",
+      "destination_pdf": "appendix_counterfactual_node_error.pdf",
+      "section": "appendix",
+      "source_comment": "analysis/simulator_counterfactual_replay_plot.py"
+    },
+    {
+      "id": "appendix_counterfactual_human_loo",
+      "enabled": true,
+      "required": false,
+      "source_pdf": "analysis/data/simulator_counterfactual_replay_social_bn_human_loo_plot.pdf",
+      "destination_pdf": "appendix_counterfactual_human_loo.pdf",
+      "section": "appendix",
+      "source_comment": "analysis/simulator_counterfactual_replay_plot.py"
+    },
+    {
+      "id": "appendix_bn_persuasion_difficulty",
+      "enabled": true,
+      "required": false,
+      "source_pdf": "analysis/figures/simulator_persuasion_difficulty_structure_scatter.pdf",
+      "destination_pdf": "appendix_bn_persuasion_difficulty.pdf",
+      "section": "appendix",
+      "source_comment": "analysis/simulator_persuasion_difficulty.py"
+    }
+  ]
+}

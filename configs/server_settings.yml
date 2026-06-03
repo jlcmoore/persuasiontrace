@@ -1,0 +1,353 @@
+# ./server_settings.yml
+# Define optional arguments to change the default server settings,
+# defined in `src/api/utils.py::ServerSettings`
+rounds_per_participant: 1
+completion_code: "C1D7T8MG"
+dev_environment: True
+llm_target_end_game_prob: .3
+llm_persuader_reasoning_effort: null
+propositions_filenames:
+  # Full generic DebateGPT proposition pool (27 propositions).
+  - "fitted_bayesian_networks_debategpt"
+round_time_limit: 600
+conditions:
+  # # testing
+  # - condition:
+  #     factual_domain: False
+  #     continuous_measure: 'on-reflection'
+  #     use_audio: False
+  #     control_dialogue: False
+  #     # show_transcript: True
+  #   roles:
+  #     llm_persuader: 'gpt-4o-mini'
+  #     llm_target: null
+  #     human_persuader: False
+  #     human_target: True
+  #   count: 10
+  #   turn_limit: null
+  # # llm target
+  # - condition:
+  #     factual_domain: False
+  #     continuous_measure: 'mouse-trace'
+  #     use_audio: False
+  #     control_dialogue: True
+  #     # show_transcript: True
+  #   roles:
+  #     llm_persuader: null
+  #     llm_target: 'gpt-4o-mini'
+  #     human_persuader: True
+  #     human_target: False
+  #   count: 10
+  #   turn_limit: null
+  # human-human
+  # - condition:
+  #     factual_domain: False
+  #     synthetic_audio: False
+  #     use_audio: False
+  #     show_transcript: False
+  #     continuous_measure: 'serial-questions'
+  #     minimum_turns: 2
+  #     turn_limit: 10
+  #   roles:
+  #     human_persuader: True
+  #     human_target: True
+  #   count: 100
+  # # Testing LLM-target code
+  # - condition:
+  #     factual_domain: False
+  #     synthetic_audio: False
+  #     use_audio: False
+  #     show_transcript: False
+  #     continuous_measure: 'serial-questions'
+  #     turn_limit: 2
+  #   roles:
+  #     human_persuader: True
+  #     llm_target: 'gpt-4.1-nano'
+  #   count: 10
+# ---------------
+# ---------------
+# ---------------
+  # # llm persuader (audio no transcript pre post)
+  # - condition:
+  #     factual_domain: False
+  #     continuous_measure: null
+  #     use_audio: True
+  #     show_transcript: False
+  #     turn_limit: 10  
+  #   roles:
+  #     llm_persuader: 'o3-2025-04-16'
+  #     llm_target: null
+  #     human_persuader: False
+  #     human_target: True
+  #   count: 5
+  # # llm persuader (audio yes transcript serial question)
+  # - condition:
+  #     factual_domain: False
+  #     continuous_measure: 'serial-questions'
+  #     use_audio: True
+  #     show_transcript: True
+  #     turn_limit: 10  
+  #   roles:
+  #     llm_persuader: 'o3-2025-04-16'
+  #     llm_target: null
+  #     human_persuader: False
+  #     human_target: True
+  #   count: 5
+  # # llm persuader (audio yes transcript mouse trace)
+  # - condition:
+  #     factual_domain: False
+  #     continuous_measure: 'mouse-trace'
+  #     use_audio: True
+  #     show_transcript: True
+  #     turn_limit: 10  
+  #   roles:
+  #     llm_persuader: 'o3-2025-04-16'
+  #     llm_target: null
+  #     human_persuader: False
+  #     human_target: True
+  #   count: 5
+  # # llm persuader (text pre post)
+  # - condition:
+  #     factual_domain: False
+  #     continuous_measure: null
+  #     use_audio: False
+  #     show_transcript: False
+  #     turn_limit: 10
+  #   roles:
+  #     llm_persuader: 'o3-2025-04-16'
+  #     llm_target: null
+  #     human_persuader: False
+  #     human_target: True
+  #   count: 5
+  # # llm persuader (text pre post serial questions)
+  # - condition:
+  #     factual_domain: False
+  #     continuous_measure: 'serial-questions'
+  #     use_audio: False
+  #     show_transcript: False
+  #     turn_limit: 10
+  #   roles:
+  #     llm_persuader: 'o3-2025-04-16'
+  #     llm_target: null
+  #     human_persuader: False
+  #     human_target: True
+  #   count: 5
+  # llm persuader (text pre post mouse trace)
+  # - condition:
+  #     factual_domain: False
+  #     continuous_measure: 'mouse-trace'
+  #     use_audio: False
+  #     show_transcript: False
+  #     turn_limit: 10
+  #   roles:
+  #     llm_persuader: 'o3-2025-04-16'
+  #     llm_target: null
+  #     human_persuader: False
+  #     human_target: True
+  #   count: 5
+# --------------
+  # # llm persuader (text pre post control)
+  # - condition:
+  #     factual_domain: False
+  #     continuous_measure: null
+  #     use_audio: False
+  #     show_transcript: False
+  #     turn_limit: 10
+  #     # minimum_turns: 2
+  #     control_dialogue: True
+  #   roles:
+  #     llm_persuader: 'gpt-5'
+  #     llm_target: null
+  #     human_persuader: False
+  #     human_target: True
+  #   count: 10
+  # # llm persuader (text pre post)
+  # - condition:
+  #     factual_domain: False
+  #     continuous_measure: null
+  #     use_audio: False
+  #     show_transcript: False
+  #     turn_limit: 10
+  #     minimum_turns: 2
+  #   roles:
+  #     llm_persuader: 'gpt-5'
+  #     llm_target: null
+  #     human_persuader: False
+  #     human_target: True
+  #   count: 10
+  # # llm persuader (text pre post serial questions)
+  # - condition:
+  #     factual_domain: False
+  #     continuous_measure: 'serial-questions'
+  #     use_audio: False
+  #     show_transcript: False
+  #     turn_limit: 10
+  #     minimum_turns: 2
+  #   roles:
+  #     llm_persuader: 'gpt-5'
+  #     llm_target: null
+  #     human_persuader: False
+  #     human_target: True
+  #   count: 100
+  # # llm persuader (text pre post mouse trace)
+  # - condition:
+  #     factual_domain: False
+  #     continuous_measure: 'mouse-trace'
+  #     use_audio: False
+  #     show_transcript: False
+  #     turn_limit: 10
+  #     minimum_turns: 2
+  #   roles:
+  #     llm_persuader: 'gpt-5'
+  #     llm_target: null
+  #     human_persuader: False
+  #     human_target: True
+  #   count: 10  
+  # # llm persuader (text pre post; on reflection)
+  # - condition:
+  #     factual_domain: False
+  #     continuous_measure: 'serial-questions-sentence'
+  #     on_reflection: True      
+  #     use_audio: False
+  #     show_transcript: False
+  #     turn_limit: 10
+  #     minimum_turns: 2
+  #   roles:
+  #     llm_persuader: 'gpt-5'
+  #     llm_target: null
+  #     human_persuader: False
+  #     human_target: True
+  #   count: 10
+  # # llm persuader (text pre post mouse trace; on reflection)
+  # - condition:
+  #     factual_domain: False
+  #     continuous_measure: 'message-highlights'
+  #     on_reflection: True
+  #     use_audio: False
+  #     show_transcript: False
+  #     turn_limit: 10
+  #     minimum_turns: 2
+  #   roles:
+  #     llm_persuader: 'gpt-5'
+  #     llm_target: null
+  #     human_persuader: False
+  #     human_target: True
+  #   count: 10
+# # --------------
+#   - condition:
+#       factual_domain: False
+#       continuous_measure: 'serial-questions'
+#       participant_proposition: True
+#       control_dialogue: False
+#       use_audio: False
+#       show_transcript: False
+#       turn_limit: 10
+#       minimum_turns: 2
+#     roles:
+#       llm_persuader: 'gpt-5'
+#       llm_target: null
+#       human_persuader: False
+#       human_target: True
+#     count: 20
+#   - condition:
+#       factual_domain: False
+#       continuous_measure: 'serial-questions'
+#       participant_proposition: True
+#       control_dialogue: False
+#       use_audio: False
+#       show_transcript: False
+#       turn_limit: 10
+#       minimum_turns: 2
+#     roles:
+#       llm_persuader: null
+#       llm_target: null
+#       human_persuader: True
+#       human_target: True
+#     count: 20
+#   - condition:
+#       factual_domain: False
+#       continuous_measure: 'serial-questions'
+#       participant_proposition: True
+#       control_dialogue: True
+#       use_audio: False
+#       show_transcript: False
+#       turn_limit: 10
+#       minimum_turns: 2
+#     roles:
+#       llm_persuader: 'gpt-5'
+#       llm_target: null
+#       human_persuader: False
+#       human_target: True
+#     count: 20
+# # For simulation distribution comparison
+# - condition:
+#     factual_domain: False
+#     continuous_measure: "serial-questions"
+#     participant_proposition: False
+#     control_dialogue: False
+#     use_audio: False
+#     show_transcript: False
+#     enable_node_belief_survey: true
+#     proposition_source: "debategpt"
+#     turn_limit: 4
+#     minimum_turns: 4
+#   roles:
+#     llm_persuader: "gpt-5-2025-08-07"
+#     llm_target: null
+#     human_persuader: False
+#     human_target: True
+#   count: 200
+  # # H-Standard: generic text-only, fixed four turns, DebateGPT propositions.
+  # - condition:
+  #     factual_domain: False
+  #     continuous_measure: "serial-questions"
+  #     participant_proposition: False
+  #     control_dialogue: False
+  #     use_audio: False
+  #     show_transcript: False
+  #     proposition_source: "debategpt"
+  #     turn_limit: 4
+  #     minimum_turns: 4
+  #   roles:
+  #     llm_persuader: "gpt-5-2025-08-07"
+  #     llm_target: null
+  #     human_persuader: False
+  #     human_target: True
+  #   count: 100
+
+  # # H-Control: same stack as before, fixed four turns, text-only.
+  # - condition:
+  #     factual_domain: False
+  #     continuous_measure: "serial-questions"
+  #     participant_proposition: False
+  #     control_dialogue: True
+  #     use_audio: False
+  #     show_transcript: False
+  #     proposition_source: "debategpt"
+  #     turn_limit: 4
+  #     minimum_turns: 4
+  #   roles:
+  #     llm_persuader: "gpt-5-2025-08-07"
+  #     llm_target: null
+  #     human_persuader: False
+  #     human_target: True
+  #   count: 100
+
+  # H-SimTarget: human persuader to simulated target, fixed four turns.
+  - condition:
+      factual_domain: False
+      continuous_measure: "serial-questions"
+      participant_proposition: False
+      control_dialogue: False
+      use_audio: False
+      show_transcript: False
+      proposition_source: "debategpt"
+      turn_limit: 4
+      minimum_turns: 4
+    roles:
+      llm_persuader: null
+      llm_target: null
+      human_persuader: True
+      human_target: False
+      simulated_target: "openai/gpt-5.4-mini"
+    count: 50

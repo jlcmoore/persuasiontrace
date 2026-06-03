@@ -1,0 +1,17 @@
+series_id,label,base_key,n_rounds,n_bins_evaluable,conditional_coverage,mean_composite_error,ci_low,ci_high,bin_scheme
+human_loo_conditional,Human LOO,human_reference,76,16,1.0,0.15072230317999732,0.13414407513573967,0.16844037204039652,exact
+vanilla_llm_target,Unstructured LLM,vanilla_llm_target,76,16,1.0,0.1453793687268812,0.12685105430372665,0.16300346014779218,exact
+structure_target,Structured LLM,structure_target,76,16,1.0,0.14503255087476732,0.12813416996915908,0.1635758805315804,exact
+full_simulated_target,BN Target (ours),full_simulated_target,76,16,1.0,0.14287902399166497,0.12302855702862786,0.1622882745561647,exact
+human_loo_conditional,Human LOO,human_reference,84,13,1.0,0.15814599421572595,0.14357759572214038,0.17304542648922352,coarse_top12
+vanilla_llm_target,Unstructured LLM,vanilla_llm_target,84,13,1.0,0.14812235177589794,0.1311995828156614,0.1656252821120138,coarse_top12
+structure_target,Structured LLM,structure_target,84,13,1.0,0.147696192065048,0.13125901722094072,0.16479293062250994,coarse_top12
+full_simulated_target,BN Target (ours),full_simulated_target,84,13,1.0,0.14633011093439327,0.1281870899964588,0.16573894269535416,coarse_top12
+human_loo_conditional,Human LOO,human_reference,84,9,1.0,0.1596780742074707,0.1452552577442015,0.1745533766384484,coarse_top8
+vanilla_llm_target,Unstructured LLM,vanilla_llm_target,84,9,1.0,0.14812235177589794,0.1315029430838908,0.16542291511740304,coarse_top8
+structure_target,Structured LLM,structure_target,84,9,1.0,0.14769619206504797,0.13103268271552804,0.16510449851590195,coarse_top8
+full_simulated_target,BN Target (ours),full_simulated_target,84,9,1.0,0.14633011093439324,0.12907349181857686,0.1650075814529965,coarse_top8
+human_loo_conditional,Human LOO,human_reference,84,5,1.0,0.15628383331927836,0.14261810343894288,0.17071798804980298,coarse_top4
+vanilla_llm_target,Unstructured LLM,vanilla_llm_target,84,5,1.0,0.14812235177589794,0.13102245528758846,0.16590026100975802,coarse_top4
+structure_target,Structured LLM,structure_target,84,5,1.0,0.14769619206504797,0.13115184142320901,0.16599646990277966,coarse_top4
+full_simulated_target,BN Target (ours),full_simulated_target,84,5,1.0,0.14633011093439327,0.12805933349838153,0.16540752443567142,coarse_top4

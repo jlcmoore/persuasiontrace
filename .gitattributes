@@ -1,0 +1,7 @@
+
+*.ipynb	diff=jupyternotebook
+
+*.ipynb	merge=jupyternotebook
+
+# Large RL rollout trace kept for current simulator analysis.
+results/rl_baseline/sim_compare_social_bn_2026-04-29/steps.jsonl filter=lfs diff=lfs merge=lfs -text

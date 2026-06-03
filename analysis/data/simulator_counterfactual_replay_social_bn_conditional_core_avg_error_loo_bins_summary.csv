@@ -1,0 +1,5 @@
+series_id,label,base_key,n_rounds,n_bins_evaluable,conditional_coverage,mean_composite_error,ci_low,ci_high
+human_loo_conditional,Human LOO,human_reference,76,16,1.0,0.15072230317999732,0.13414407513573967,0.16844037204039652
+vanilla_llm_target,Unstructured LLM,vanilla_llm_target,76,16,1.0,0.1453793687268812,0.12685105430372665,0.16300346014779218
+structure_target,Structured LLM,structure_target,76,16,1.0,0.14503255087476732,0.12813416996915908,0.1635758805315804
+full_simulated_target,BN Target (ours),full_simulated_target,76,16,1.0,0.14287902399166497,0.12302855702862786,0.1622882745561647

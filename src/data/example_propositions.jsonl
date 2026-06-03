@@ -1,0 +1,6 @@
+{"id" : "The earth is flat.", "factual_domain" : true, "proposition_is_correct" : false}
+{"id" : "2 plus 2 equals 4", "factual_domain" : true, "proposition_is_correct" : true}
+{"id" : "The average depth of the SF bay is about 13 feet.", "factual_domain" : true, "proposition_is_correct" : true}
+{"id" : "AI takeover will happen by 2030.", "factual_domain" : false, "proposition_is_correct" : null}
+{"id" : "Pet Sounds is the best album of all time.", "factual_domain" : false, "proposition_is_correct" : null}
+{"id" : "Dorothea should not have married Mr. Casaubon", "factual_domain" : false, "proposition_is_correct" : null}

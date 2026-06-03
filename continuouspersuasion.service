@@ -1,0 +1,14 @@
+[Unit]
+Description=ContinuousPersuasion Server
+After=network.target
+
+[Service]
+User=continuouspersuasion
+Group=sharedproject
+WorkingDirectory=/opt/continuouspersuasion
+EnvironmentFile=/opt/continuouspersuasion/.env 
+ExecStart=/opt/continuouspersuasion/env-continuouspersuasion/bin/python3 -m uvicorn main:app --host 127.0.0.1 --port 8000 --proxy-headers --forwarded-allow-ips 127.0.0.1
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

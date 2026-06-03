@@ -1,0 +1,6 @@
+[MESSAGES CONTROL]
+disable=logging-fstring-interpolation
+output-format=colorized
+
+[TYPECHECK]
+ignored-modules=torch,transformers,spacy,litellm

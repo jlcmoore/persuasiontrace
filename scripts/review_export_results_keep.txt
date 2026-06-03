@@ -1,0 +1,14 @@
+# Deterministic keep-rules for results/ in review-copy exports.
+# Each non-comment line is a glob pattern relative to repository root.
+
+# Human-target result directories used by paper refresh slices.
+results/human_target=True*/
+
+# Exported simulator rounds consumed by proposition-bias refresh.
+results/sim_compare_exactprop_smoke_2026-05-03_rounds/
+
+# Exact-proposition rollout artifacts used by round-pair figure refresh.
+results/sim_compare_exactprop_smoke_2026-05-03/episodes.jsonl
+
+# Model-sweep episodes used by policy-rank refresh.
+results/rl_model_sweep_debategpt_bn/episodes.jsonl

@@ -1,0 +1,4 @@
+pair_id,first_id,second_id,pair_label,n_pairs,n_bins_evaluable,conditional_coverage,mean_diff,ci_low,ci_high
+structure_target__minus__vanilla_llm_target,structure_target,vanilla_llm_target,Structured LLM - Unstructured LLM,76,16,1.0,-0.0003468178521139065,-0.006824369011553626,0.006202619703509238
+full_simulated_target__minus__vanilla_llm_target,full_simulated_target,vanilla_llm_target,BN Target (ours) - Unstructured LLM,76,16,1.0,-0.0025003447352162345,-0.012716456907097632,0.005339631234352557
+full_simulated_target__minus__structure_target,full_simulated_target,structure_target,BN Target (ours) - Structured LLM,76,16,1.0,-0.0021535268831023293,-0.0127986160088959,0.006119571352475948

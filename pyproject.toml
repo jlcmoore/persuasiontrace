@@ -1,0 +1,36 @@
+# ./pyproject.toml
+[tool.black]
+line-length = 88
+[flake8]
+max-line-length = 88
+[tool.pytest.ini_options]
+filterwarnings = [
+  # turn every warning into an error  
+  "error",
+  "ignore:.*Importing 'parser\\.split_arg_string' is deprecated.*:DeprecationWarning",
+  "ignore:Support for class-based `config` is deprecated.*:pydantic.warnings.PydanticDeprecatedSince20",
+  "ignore:open_text is deprecated.*:DeprecationWarning",
+]
+
+# Pylint defaults to speed up and trim expensive checks.
+# Command-line flags still take precedence over these defaults.
+[tool.pylint.MASTER]
+jobs = 0                 # parallelize across CPUs
+persistent = true        # enable caching
+
+[tool.pylint."MESSAGES CONTROL"]
+# Disable costly or undesired checks
+disable = [
+  "logging-fstring-interpolation",
+  # Optional: We could turn off duplicate code.
+  # "duplicate-code",  # R0801
+]
+
+[tool.pylint.TYPECHECK]
+# Avoid expensive third-party introspection during lint.
+ignored-modules = [
+  "litellm",
+  "spacy",
+  "torch",
+  "transformers",
+]

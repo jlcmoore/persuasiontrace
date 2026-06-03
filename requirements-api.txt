@@ -1,0 +1,14 @@
+# Runtime dependencies for the API server and core simulation modules.
+fastapi[standard]
+google-auth
+google-cloud-aiplatform
+inflect
+litellm==1.82.6
+markdown
+openai
+pandas
+pydantic_settings
+spacy>=3.6
+sqlmodel
+textstat
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl

@@ -1,0 +1,15 @@
+# Development and notebook tooling.
+black
+graylint
+ipykernel
+ipywidgets
+json-repair
+jupyter_client
+jupyter_core
+nbdime
+nbqa
+nbstripout
+pylint
+pytest
+pytest-asyncio
+vulture

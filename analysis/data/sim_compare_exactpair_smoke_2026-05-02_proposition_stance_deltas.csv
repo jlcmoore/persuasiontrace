@@ -1,0 +1,163 @@
+corpus,proposition,stance,n_rounds,mean_total_delta,median_total_delta,mean_abs_total_delta,toward_round_rate,away_round_rate,near_zero_round_rate
+full_simulated_target,Abortion should be legal.,opposes,5,-0.0665702409981658,-0.020550612593942752,0.06716574801789225,0.0,0.6,0.4
+full_simulated_target,Abortion should be legal.,supports,4,0.1588224538156981,0.10809542641966546,0.1588224538156981,0.75,0.0,0.25
+full_simulated_target,Animals should be used for scientific research.,opposes,4,-0.007782084368697484,-0.005771335509712983,0.007963969810452332,0.0,0.25,0.75
+full_simulated_target,Animals should be used for scientific research.,supports,5,0.04350360931002463,0.00640306927047659,0.04350360931002463,0.4,0.0,0.6
+full_simulated_target,Artificial intelligence is good for society.,opposes,4,-0.027447116974435276,-0.0068078639736569024,0.027447116974435276,0.0,0.25,0.75
+full_simulated_target,Artificial intelligence is good for society.,supports,5,0.09463207563064749,0.03997033667061042,0.09463207563064749,0.8,0.0,0.2
+full_simulated_target,Arts education is as important as science and math in schools.,opposes,5,0.006183038364226357,-0.002118602931290625,0.013818148077813253,0.2,0.2,0.6
+full_simulated_target,Arts education is as important as science and math in schools.,supports,4,0.07089665554224325,0.05222333815824196,0.07089665554224325,0.75,0.0,0.25
+full_simulated_target,Colleges should consider race as a factor in admissions to ensure diversity.,opposes,4,0.018945766542255105,0.016002695698362157,0.022491986613651482,0.5,0.0,0.5
+full_simulated_target,Colleges should consider race as a factor in admissions to ensure diversity.,supports,5,0.1264561353080885,0.04126327050648476,0.1264561353080885,0.8,0.0,0.2
+full_simulated_target,Elected or appointed government officials should be paid the minimum wage.,opposes,4,0.007018275651120787,0.0055540961807880596,0.012848403904745509,0.5,0.0,0.5
+full_simulated_target,Elected or appointed government officials should be paid the minimum wage.,supports,5,0.02324849170529979,0.014131342779838005,0.02324849170529979,0.8,0.0,0.2
+full_simulated_target,Every citizen should receive a basic income from the government.,opposes,4,-0.03131721400122986,-0.029445604458579355,0.03131721400122986,0.0,0.5,0.5
+full_simulated_target,Every citizen should receive a basic income from the government.,supports,5,0.11904666370189095,0.03090042128486359,0.11904666370189095,1.0,0.0,0.0
+full_simulated_target,Felons should regain the right to vote.,opposes,4,-0.007631599797061045,-0.0008792154508669991,0.01575957826034194,0.25,0.25,0.5
+full_simulated_target,Felons should regain the right to vote.,supports,5,0.10387342120051253,0.03065039744252023,0.10387342120051253,0.8,0.0,0.2
+full_simulated_target,Government surveillance is necessary for national security.,opposes,4,-0.009155774756765878,-0.005189348467881549,0.05926201346431009,0.25,0.5,0.25
+full_simulated_target,Government surveillance is necessary for national security.,supports,5,0.018033752249170493,0.013189089359048653,0.018033752249170493,0.8,0.0,0.2
+full_simulated_target,Governments should have the right to censor the Internet.,opposes,4,-0.02057028204459141,-0.009699817251056786,0.032013903666101656,0.25,0.5,0.25
+full_simulated_target,Governments should have the right to censor the Internet.,supports,5,0.12953923491187624,0.11953820721859765,0.12953923491187624,0.8,0.0,0.2
+full_simulated_target,Online learning is a suitable replacement for traditional in-person education.,opposes,5,-0.06898881676598781,-0.05426776098445152,0.06898881676598781,0.0,0.8,0.2
+full_simulated_target,Online learning is a suitable replacement for traditional in-person education.,supports,4,0.058877349796911005,0.019511451399036206,0.058877349796911005,1.0,0.0,0.0
+full_simulated_target,Public college should be tuition-free.,opposes,4,-0.009137557740934249,0.0018421014439828909,0.015718785333441537,0.0,0.25,0.75
+full_simulated_target,Public college should be tuition-free.,supports,5,0.07414419910631284,0.07854064667943178,0.07414419910631284,0.8,0.0,0.2
+full_simulated_target,Social media are making people stupid.,opposes,3,-0.003194634181016953,-0.0011253142860708776,0.005166059455543086,0.0,0.3333333333333333,0.6666666666666666
+full_simulated_target,Social media are making people stupid.,supports,6,0.09634443010336058,0.06110802384777959,0.09634443010336058,0.6666666666666666,0.0,0.3333333333333333
+full_simulated_target,Space exploration is a worthwhile investment for humanity.,opposes,4,-0.002119035676730746,0.002533525473059073,0.014908326894129381,0.25,0.25,0.5
+full_simulated_target,Space exploration is a worthwhile investment for humanity.,supports,5,0.09539322277115769,0.06843692607743668,0.09539322277115769,0.6,0.0,0.4
+full_simulated_target,Students should have to wear school uniforms.,opposes,5,-0.0050797792540513195,-0.012276461119472115,0.018336066201141164,0.2,0.6,0.2
+full_simulated_target,Students should have to wear school uniforms.,supports,4,0.021645785446643827,0.006365027287653374,0.021645785446643827,0.25,0.0,0.75
+full_simulated_target,The US should ban fossil fuels to combat climate change.,opposes,4,-0.02101252227734346,-0.016516786926902838,0.02101252227734346,0.0,0.5,0.5
+full_simulated_target,The US should ban fossil fuels to combat climate change.,supports,5,0.11324908628654358,0.04503326905503069,0.11324908628654358,0.8,0.0,0.2
+full_simulated_target,The US should enact more regulations to ensure fair elections.,opposes,5,0.020405626204734528,-0.0004239255999104463,0.050242789778680366,0.4,0.2,0.4
+full_simulated_target,The US should enact more regulations to ensure fair elections.,supports,4,0.02950382009743564,0.012088973457661308,0.02950382009743564,0.5,0.0,0.5
+full_simulated_target,The US should expand ('pack') the Supreme Court.,opposes,5,-0.008078658438456732,-0.00326169578678448,0.029976254427792736,0.2,0.2,0.6
+full_simulated_target,The US should expand ('pack') the Supreme Court.,supports,4,0.03744704631704053,0.03276045047605522,0.03744704631704053,1.0,0.0,0.0
+full_simulated_target,The US should have mandatory national service.,opposes,4,-0.006093945534826006,-0.0024343402033293327,0.02279408057216753,0.25,0.25,0.5
+full_simulated_target,The US should have mandatory national service.,supports,5,0.1112453733933944,0.05132576288374364,0.1112453733933944,0.8,0.0,0.2
+full_simulated_target,The US should provide military aid to Ukraine in its conflict with Russia.,opposes,4,-0.001199560114028636,0.0009704733213360961,0.008288723548657978,0.25,0.25,0.5
+full_simulated_target,The US should provide military aid to Ukraine in its conflict with Russia.,supports,5,0.08010770192648284,0.023265365208959166,0.08010770192648284,0.8,0.0,0.2
+full_simulated_target,The death penalty should be legal.,opposes,5,-0.10046302990872809,-0.019699934091047977,0.10046302990872809,0.0,0.6,0.4
+full_simulated_target,The death penalty should be legal.,supports,4,0.04347087176317926,0.025187200837209753,0.04496078038920031,0.5,0.0,0.5
+full_simulated_target,The penny should stay in circulation.,opposes,6,-0.0068535144402493975,-0.005867066543161326,0.011867168873394082,0.16666666666666666,0.5,0.3333333333333333
+full_simulated_target,The penny should stay in circulation.,supports,3,0.016352799620064928,0.013598587531287364,0.016352799620064928,0.6666666666666666,0.0,0.3333333333333333
+full_simulated_target,The rich should pay more taxes.,opposes,5,-0.0034742848179966867,0.0002456580063949776,0.020455863285933018,0.2,0.4,0.4
+full_simulated_target,The rich should pay more taxes.,supports,4,0.01822709912800954,0.019049177610909365,0.01822709912800954,0.5,0.0,0.5
+full_simulated_target,There should be international agreements to enforce global climate change policies.,opposes,5,0.0012894226305725453,0.0021482513190164143,0.01301669350663288,0.2,0.2,0.6
+full_simulated_target,There should be international agreements to enforce global climate change policies.,supports,4,0.07920928554546526,0.07351035763174474,0.07920928554546526,1.0,0.0,0.0
+full_simulated_target,There should be limits on freedom of speech to prevent hate speech.,opposes,4,0.017113732076849242,-0.0034396571358354944,0.02718971281862609,0.25,0.25,0.5
+full_simulated_target,There should be limits on freedom of speech to prevent hate speech.,supports,5,0.12654688687628987,0.09727367676276488,0.12654688687628987,1.0,0.0,0.0
+full_simulated_target,There should be mandatory quotas for women in leadership positions.,opposes,3,-0.001022674988889564,0.0006664839766972186,0.0025314016483611126,0.0,0.0,1.0
+full_simulated_target,There should be mandatory quotas for women in leadership positions.,supports,6,0.0727944589548591,0.021749467194333294,0.0727944589548591,0.8333333333333334,0.0,0.16666666666666666
+full_simulated_target,There should be standardized testing in schools.,opposes,6,-0.00574836835198141,-0.0024050487493175177,0.013778337908121404,0.16666666666666666,0.3333333333333333,0.5
+full_simulated_target,There should be standardized testing in schools.,supports,3,0.0314322410020045,0.02308178943643821,0.0314322410020045,1.0,0.0,0.0
+structure_target,Abortion should be legal.,opposes,1,0.0033508064833056572,0.0033508064833056572,0.0033508064833056572,0.0,0.0,1.0
+structure_target,Abortion should be legal.,supports,2,-0.0250026304695853,-0.0250026304695853,0.0250026304695853,0.0,0.5,0.5
+structure_target,Animals should be used for scientific research.,opposes,2,0.01640009042276941,0.01640009042276941,0.13259788088591634,0.5,0.5,0.0
+structure_target,Animals should be used for scientific research.,supports,1,0.14923058325938557,0.14923058325938557,0.14923058325938557,1.0,0.0,0.0
+structure_target,Artificial intelligence is good for society.,opposes,2,0.011254778100807827,0.011254778100807827,0.031778845914426423,0.5,0.5,0.0
+structure_target,Artificial intelligence is good for society.,supports,1,0.2095510514410935,0.2095510514410935,0.2095510514410935,1.0,0.0,0.0
+structure_target,Arts education is as important as science and math in schools.,opposes,1,0.7711556197147037,0.7711556197147037,0.7711556197147037,1.0,0.0,0.0
+structure_target,Arts education is as important as science and math in schools.,supports,2,0.016857182106404522,0.016857182106404522,0.01759224671764892,0.5,0.0,0.5
+structure_target,Colleges should consider race as a factor in admissions to ensure diversity.,opposes,1,-0.0047284731222208,-0.0047284731222208,0.0047284731222208,0.0,0.0,1.0
+structure_target,Colleges should consider race as a factor in admissions to ensure diversity.,supports,2,0.0009462014839415715,0.0009462014839415715,0.0009674630778284503,0.0,0.0,1.0
+structure_target,Elected or appointed government officials should be paid the minimum wage.,opposes,2,0.6292628757593817,0.6292628757593817,0.6292628757593817,1.0,0.0,0.0
+structure_target,Elected or appointed government officials should be paid the minimum wage.,supports,1,0.03279536546899085,0.03279536546899085,0.03279536546899085,1.0,0.0,0.0
+structure_target,Every citizen should receive a basic income from the government.,opposes,2,-0.002109607235981137,-0.002109607235981137,0.002242692037308258,0.0,0.0,1.0
+structure_target,Every citizen should receive a basic income from the government.,supports,1,0.09877978994006975,0.09877978994006975,0.09877978994006975,1.0,0.0,0.0
+structure_target,Felons should regain the right to vote.,opposes,1,0.002239942791438132,0.002239942791438132,0.002239942791438132,0.0,0.0,1.0
+structure_target,Felons should regain the right to vote.,supports,2,0.017569754523471915,0.017569754523471915,0.02238291548984549,0.5,0.0,0.5
+structure_target,Government surveillance is necessary for national security.,opposes,1,0.760129441803692,0.760129441803692,0.760129441803692,1.0,0.0,0.0
+structure_target,Government surveillance is necessary for national security.,supports,2,0.02618772739221116,0.02618772739221116,0.02618772739221116,1.0,0.0,0.0
+structure_target,Governments should have the right to censor the Internet.,opposes,1,0.8674826061750285,0.8674826061750285,0.8674826061750285,1.0,0.0,0.0
+structure_target,Governments should have the right to censor the Internet.,supports,2,0.017219763380186784,0.017219763380186784,0.019546183889491378,0.5,0.0,0.5
+structure_target,Online learning is a suitable replacement for traditional in-person education.,opposes,2,0.19275558826689365,0.19275558826689365,0.19275558826689365,1.0,0.0,0.0
+structure_target,Online learning is a suitable replacement for traditional in-person education.,supports,1,0.11226816081973932,0.11226816081973932,0.11226816081973932,1.0,0.0,0.0
+structure_target,Public college should be tuition-free.,opposes,1,0.0021312477231123506,0.0021312477231123506,0.0021312477231123506,0.0,0.0,1.0
+structure_target,Public college should be tuition-free.,supports,2,0.025223912012725433,0.025223912012725433,0.025223912012725433,0.5,0.0,0.5
+structure_target,Social media are making people stupid.,opposes,1,0.12074858931709398,0.12074858931709398,0.12074858931709398,1.0,0.0,0.0
+structure_target,Social media are making people stupid.,supports,2,-0.0016105166733841013,-0.0016105166733841013,0.0016105166733841013,0.0,0.0,1.0
+structure_target,Space exploration is a worthwhile investment for humanity.,opposes,1,0.15124424064288833,0.15124424064288833,0.15124424064288833,1.0,0.0,0.0
+structure_target,Space exploration is a worthwhile investment for humanity.,supports,2,0.15680623523286707,0.15680623523286707,0.15680623523286707,1.0,0.0,0.0
+structure_target,Students should have to wear school uniforms.,opposes,2,0.0024983225340209914,0.0024983225340209914,0.0024983225340209914,0.0,0.0,1.0
+structure_target,Students should have to wear school uniforms.,supports,1,0.2728946228753229,0.2728946228753229,0.2728946228753229,1.0,0.0,0.0
+structure_target,The US should ban fossil fuels to combat climate change.,opposes,1,0.3367804689446281,0.3367804689446281,0.3367804689446281,1.0,0.0,0.0
+structure_target,The US should ban fossil fuels to combat climate change.,supports,2,0.11226116865078055,0.11226116865078055,0.11497483530603396,0.5,0.0,0.5
+structure_target,The US should enact more regulations to ensure fair elections.,opposes,1,0.06149026073874386,0.06149026073874386,0.06149026073874386,1.0,0.0,0.0
+structure_target,The US should enact more regulations to ensure fair elections.,supports,2,0.10888156201689048,0.10888156201689048,0.16259981217189473,0.5,0.5,0.0
+structure_target,The US should expand ('pack') the Supreme Court.,opposes,2,0.5106701860833741,0.5106701860833741,0.5106701860833741,1.0,0.0,0.0
+structure_target,The US should expand ('pack') the Supreme Court.,supports,1,0.07718683312491484,0.07718683312491484,0.07718683312491484,1.0,0.0,0.0
+structure_target,The US should have mandatory national service.,opposes,1,0.11579147949959334,0.11579147949959334,0.11579147949959334,1.0,0.0,0.0
+structure_target,The US should have mandatory national service.,supports,2,0.0032118149421500874,0.0032118149421500874,0.0032118149421500874,0.0,0.0,1.0
+structure_target,The US should provide military aid to Ukraine in its conflict with Russia.,opposes,2,-0.003765386096010015,-0.003765386096010015,0.003765386096010015,0.0,0.0,1.0
+structure_target,The US should provide military aid to Ukraine in its conflict with Russia.,supports,1,0.026624232233286027,0.026624232233286027,0.026624232233286027,1.0,0.0,0.0
+structure_target,The death penalty should be legal.,opposes,1,0.04237265014233638,0.04237265014233638,0.04237265014233638,1.0,0.0,0.0
+structure_target,The death penalty should be legal.,supports,2,-0.006887478514989394,-0.006887478514989394,0.006887478514989394,0.0,0.0,1.0
+structure_target,The penny should stay in circulation.,opposes,1,-0.0013542735639424652,-0.0013542735639424652,0.0013542735639424652,0.0,0.0,1.0
+structure_target,The penny should stay in circulation.,supports,2,-0.03496753024541327,-0.03496753024541327,0.10171617001527122,0.5,0.5,0.0
+structure_target,The rich should pay more taxes.,opposes,1,0.07826819787982886,0.07826819787982886,0.07826819787982886,1.0,0.0,0.0
+structure_target,The rich should pay more taxes.,supports,2,0.04501340888621522,0.04501340888621522,0.04501340888621522,0.5,0.0,0.5
+structure_target,There should be international agreements to enforce global climate change policies.,opposes,2,0.2810337717575829,0.2810337717575829,0.32678244463594636,0.5,0.5,0.0
+structure_target,There should be international agreements to enforce global climate change policies.,supports,1,0.06439905463428458,0.06439905463428458,0.06439905463428458,1.0,0.0,0.0
+structure_target,There should be limits on freedom of speech to prevent hate speech.,opposes,2,-0.05163667662733307,-0.05163667662733307,0.05500697137436339,0.0,0.5,0.5
+structure_target,There should be limits on freedom of speech to prevent hate speech.,supports,1,0.035404004087221004,0.035404004087221004,0.035404004087221004,1.0,0.0,0.0
+structure_target,There should be mandatory quotas for women in leadership positions.,opposes,1,0.7593639183286702,0.7593639183286702,0.7593639183286702,1.0,0.0,0.0
+structure_target,There should be mandatory quotas for women in leadership positions.,supports,2,0.024268691927276258,0.024268691927276258,0.024268691927276258,0.5,0.0,0.5
+structure_target,There should be standardized testing in schools.,opposes,1,0.14803150493044248,0.14803150493044248,0.14803150493044248,1.0,0.0,0.0
+structure_target,There should be standardized testing in schools.,supports,2,0.1530108450730725,0.1530108450730725,0.1530108450730725,1.0,0.0,0.0
+vanilla_llm_target,Abortion should be legal.,opposes,1,-0.0012970964087084536,-0.0012970964087084536,0.0012970964087084536,0.0,0.0,1.0
+vanilla_llm_target,Abortion should be legal.,supports,2,0.07141278787099507,0.07141278787099507,0.07141278787099507,0.5,0.0,0.5
+vanilla_llm_target,Animals should be used for scientific research.,opposes,1,0.17303436206960576,0.17303436206960576,0.17303436206960576,1.0,0.0,0.0
+vanilla_llm_target,Animals should be used for scientific research.,supports,2,0.06694821830866807,0.06694821830866807,0.06694821830866807,1.0,0.0,0.0
+vanilla_llm_target,Artificial intelligence is good for society.,opposes,1,0.13212003397946193,0.13212003397946193,0.13212003397946193,1.0,0.0,0.0
+vanilla_llm_target,Artificial intelligence is good for society.,supports,2,0.21166200668681381,0.21166200668681381,0.21166200668681381,1.0,0.0,0.0
+vanilla_llm_target,Arts education is as important as science and math in schools.,opposes,2,-0.0016859366585472157,-0.0016859366585472157,0.0016859366585472157,0.0,0.0,1.0
+vanilla_llm_target,Arts education is as important as science and math in schools.,supports,1,0.2989258010212683,0.2989258010212683,0.2989258010212683,1.0,0.0,0.0
+vanilla_llm_target,Colleges should consider race as a factor in admissions to ensure diversity.,opposes,1,0.00033606445947442776,0.00033606445947442776,0.00033606445947442776,0.0,0.0,1.0
+vanilla_llm_target,Colleges should consider race as a factor in admissions to ensure diversity.,supports,2,-0.01192270311218558,-0.01192270311218558,0.027327149590982196,0.5,0.5,0.0
+vanilla_llm_target,Elected or appointed government officials should be paid the minimum wage.,opposes,1,0.9242710730359232,0.9242710730359232,0.9242710730359232,1.0,0.0,0.0
+vanilla_llm_target,Elected or appointed government officials should be paid the minimum wage.,supports,2,0.05532633540782399,0.05532633540782399,0.05532633540782399,0.5,0.0,0.5
+vanilla_llm_target,Every citizen should receive a basic income from the government.,opposes,1,-0.004130512777525741,-0.004130512777525741,0.004130512777525741,0.0,0.0,1.0
+vanilla_llm_target,Every citizen should receive a basic income from the government.,supports,2,0.033965340466400304,0.033965340466400304,0.033965340466400304,1.0,0.0,0.0
+vanilla_llm_target,Felons should regain the right to vote.,opposes,1,0.0026726078614202065,0.0026726078614202065,0.0026726078614202065,0.0,0.0,1.0
+vanilla_llm_target,Felons should regain the right to vote.,supports,2,0.2883299266812686,0.2883299266812686,0.2883299266812686,1.0,0.0,0.0
+vanilla_llm_target,Government surveillance is necessary for national security.,opposes,1,0.0451530975108273,0.0451530975108273,0.0451530975108273,1.0,0.0,0.0
+vanilla_llm_target,Government surveillance is necessary for national security.,supports,2,0.0507741035177824,0.0507741035177824,0.05485821234637907,0.5,0.0,0.5
+vanilla_llm_target,Governments should have the right to censor the Internet.,opposes,1,0.002720171253827286,0.002720171253827286,0.002720171253827286,0.0,0.0,1.0
+vanilla_llm_target,Governments should have the right to censor the Internet.,supports,2,-0.009932937485457302,-0.009932937485457302,0.017033194795651976,0.0,0.5,0.5
+vanilla_llm_target,Online learning is a suitable replacement for traditional in-person education.,opposes,2,0.0898345169107986,0.0898345169107986,0.0898345169107986,0.5,0.0,0.5
+vanilla_llm_target,Online learning is a suitable replacement for traditional in-person education.,supports,1,0.1285653801155552,0.1285653801155552,0.1285653801155552,1.0,0.0,0.0
+vanilla_llm_target,Public college should be tuition-free.,opposes,2,0.011133941851543705,0.011133941851543705,0.07283950244280457,0.5,0.5,0.0
+vanilla_llm_target,Public college should be tuition-free.,supports,1,0.060800316426783026,0.060800316426783026,0.060800316426783026,1.0,0.0,0.0
+vanilla_llm_target,Social media are making people stupid.,opposes,2,0.14702284603722107,0.14702284603722107,0.14702284603722107,1.0,0.0,0.0
+vanilla_llm_target,Social media are making people stupid.,supports,1,0.06485628663396244,0.06485628663396244,0.06485628663396244,1.0,0.0,0.0
+vanilla_llm_target,Space exploration is a worthwhile investment for humanity.,opposes,2,0.007955265779676257,0.007955265779676257,0.01232311336824482,0.5,0.0,0.5
+vanilla_llm_target,Space exploration is a worthwhile investment for humanity.,supports,1,0.6632373357489558,0.6632373357489558,0.6632373357489558,1.0,0.0,0.0
+vanilla_llm_target,Students should have to wear school uniforms.,opposes,1,0.10703168703059274,0.10703168703059274,0.10703168703059274,1.0,0.0,0.0
+vanilla_llm_target,Students should have to wear school uniforms.,supports,2,0.0156866656915332,0.0156866656915332,0.0156866656915332,0.5,0.0,0.5
+vanilla_llm_target,The US should ban fossil fuels to combat climate change.,opposes,2,0.0009279727570902785,0.0009279727570902785,0.002387846736186028,0.0,0.0,1.0
+vanilla_llm_target,The US should ban fossil fuels to combat climate change.,supports,1,0.17039622310236768,0.17039622310236768,0.17039622310236768,1.0,0.0,0.0
+vanilla_llm_target,The US should enact more regulations to ensure fair elections.,opposes,2,-0.002635425447353401,-0.002635425447353401,0.002635425447353401,0.0,0.0,1.0
+vanilla_llm_target,The US should enact more regulations to ensure fair elections.,supports,1,0.43567292636294513,0.43567292636294513,0.43567292636294513,1.0,0.0,0.0
+vanilla_llm_target,The US should expand ('pack') the Supreme Court.,opposes,1,0.07053916104840041,0.07053916104840041,0.07053916104840041,1.0,0.0,0.0
+vanilla_llm_target,The US should expand ('pack') the Supreme Court.,supports,2,0.0009649247100471901,0.0009649247100471901,0.003672825226150176,0.0,0.0,1.0
+vanilla_llm_target,The US should have mandatory national service.,opposes,1,0.0007024433799647234,0.0007024433799647234,0.0007024433799647234,0.0,0.0,1.0
+vanilla_llm_target,The US should have mandatory national service.,supports,2,0.026771804381365758,0.026771804381365758,0.026771804381365758,0.5,0.0,0.5
+vanilla_llm_target,The US should provide military aid to Ukraine in its conflict with Russia.,opposes,1,0.00013377904276445918,0.00013377904276445918,0.00013377904276445918,0.0,0.0,1.0
+vanilla_llm_target,The US should provide military aid to Ukraine in its conflict with Russia.,supports,2,0.09778575156887091,0.09778575156887091,0.09778575156887091,1.0,0.0,0.0
+vanilla_llm_target,The death penalty should be legal.,opposes,1,0.0025821768654397115,0.0025821768654397115,0.0025821768654397115,0.0,0.0,1.0
+vanilla_llm_target,The death penalty should be legal.,supports,2,-0.004851755662790516,-0.004851755662790516,0.004851755662790516,0.0,0.0,1.0
+vanilla_llm_target,The penny should stay in circulation.,opposes,1,0.017104051134138043,0.017104051134138043,0.017104051134138043,1.0,0.0,0.0
+vanilla_llm_target,The penny should stay in circulation.,supports,2,-0.00196172026285929,-0.00196172026285929,0.05381538986613832,0.5,0.5,0.0
+vanilla_llm_target,The rich should pay more taxes.,opposes,2,0.004788734416080298,0.004788734416080298,0.004788734416080298,0.0,0.0,1.0
+vanilla_llm_target,The rich should pay more taxes.,supports,1,0.23881772768313853,0.23881772768313853,0.23881772768313853,1.0,0.0,0.0
+vanilla_llm_target,There should be international agreements to enforce global climate change policies.,opposes,1,-0.0009327322737773258,-0.0009327322737773258,0.0009327322737773258,0.0,0.0,1.0
+vanilla_llm_target,There should be international agreements to enforce global climate change policies.,supports,2,0.20039287179936363,0.20039287179936363,0.20039287179936363,1.0,0.0,0.0
+vanilla_llm_target,There should be limits on freedom of speech to prevent hate speech.,opposes,1,0.09443688898748037,0.09443688898748037,0.09443688898748037,1.0,0.0,0.0
+vanilla_llm_target,There should be limits on freedom of speech to prevent hate speech.,supports,2,0.024492236788751752,0.024492236788751752,0.02910681855103677,0.5,0.0,0.5
+vanilla_llm_target,There should be mandatory quotas for women in leadership positions.,opposes,2,-0.024710591428093343,-0.024710591428093343,0.024710591428093343,0.0,0.5,0.5
+vanilla_llm_target,There should be mandatory quotas for women in leadership positions.,supports,1,0.07966340263486768,0.07966340263486768,0.07966340263486768,1.0,0.0,0.0
+vanilla_llm_target,There should be standardized testing in schools.,opposes,2,0.05689660432112109,0.05689660432112109,0.05689660432112109,0.5,0.0,0.5
+vanilla_llm_target,There should be standardized testing in schools.,supports,1,0.08916206143078256,0.08916206143078256,0.08916206143078256,1.0,0.0,0.0

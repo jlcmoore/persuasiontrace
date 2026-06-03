@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="figure_html_files/css2.css" rel="stylesheet" />
+    <link rel="stylesheet" href="figure_html_files/index-BncMl7cs.css" />
+    <link rel="stylesheet" href="$css_href" />
+    <title>round_human_vs_simulator</title>
+  </head>
+  <body>
+    <div class="figure-root">
+      <div class="related-beliefs">
+        $related_beliefs_html
+      </div>
+
+      <div class="columns">
+        <section class="round-shell">
+          <div class="panel-top">
+            <div class="panel-title">Human</div>
+            <div class="panel-belief">
+              init: $human_initial | final: $human_final
+            </div>
+          </div>
+
+          <div data-v-20673c0c id="conversation">
+            <section data-v-4f62d463 data-v-20673c0c class="chat">
+              <div data-v-4f62d463 class="chat-window">$human_body</div>
+            </section>
+          </div>
+
+          <div class="panel-bottom">total delta: $human_total_delta</div>
+        </section>
+
+        <section class="round-shell">
+          <div class="panel-top">
+            <div class="panel-title">Simulator</div>
+            <div class="panel-belief">
+              init: $sim_initial | final: $sim_final_for_display | persona:
+              $sim_persona_text
+            </div>
+          </div>
+
+          <div data-v-20673c0c id="conversation">
+            <section data-v-4f62d463 data-v-20673c0c class="chat">
+              <div data-v-4f62d463 class="chat-window">$sim_body</div>
+            </section>
+          </div>
+
+          <div class="panel-bottom">total delta: $sim_total_delta</div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

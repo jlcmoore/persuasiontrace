@@ -1,0 +1,352 @@
+<!-- 
+A file for reading in Audio URIs either as pasted or loading in a json file.
+ -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Audio Data URI Player + JSON/JSONL Playlist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; }
+    textarea { width: 100%; box-sizing: border-box; font-family: monospace; }
+    input[type="text"] { width: 100%; box-sizing: border-box; }
+    .row { margin: 0.75rem 0; display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+    #status { color: #b00; min-height: 1.2em; }
+    #counter { margin-left: 0.5rem; opacity: 0.8; }
+  </style>
+</head>
+<body>
+  <h1>Audio Data URI Player</h1>
+
+  <!-- paste a data:audio/... URI -->
+  <div class="row">
+    <textarea id="uri" rows="6" placeholder="data:audio/webm;codecs=opus;base64,PASTE_BASE64_HERE"></textarea>
+  </div>
+  <div class="row">
+    <button id="load">Load audio</button>
+    <button id="clear">Clear</button>
+    <button id="save" disabled>Save audio</button>
+  </div>
+
+  <hr>
+
+  <!-- Load a JSON/JSONL playlist with objects containing original_audio -->
+  <h2>Load JSON or JSONL playlist (objects with field "original_audio")</h2>
+  <div class="row">
+    <input type="text" id="json-url" placeholder="https://example.com/list.json or list.jsonl">
+    <button id="load-json-url">Load URL</button>
+    <span>or</span>
+    <input type="file" id="json-file" accept="application/json,application/x-ndjson,.json,.jsonl,.ndjson">
+  </div>
+
+  <div class="row">
+    <button id="prev" disabled>Prev</button>
+    <button id="next" disabled>Next</button>
+    <label><input type="checkbox" id="auto-advance" checked> Auto-advance</label>
+    <span id="counter"></span>
+  </div>
+
+  <div class="row">
+    <audio id="player" controls preload="metadata"></audio>
+  </div>
+  <div id="status"></div>
+
+  <script>
+    const ta = document.getElementById('uri');
+    const player = document.getElementById('player');
+    const status = document.getElementById('status');
+    const saveBtn = document.getElementById('save');
+    const jsonUrlInput = document.getElementById('json-url');
+    const loadJsonUrlBtn = document.getElementById('load-json-url');
+    const jsonFileInput = document.getElementById('json-file');
+    const prevBtn = document.getElementById('prev');
+    const nextBtn = document.getElementById('next');
+    const autoAdvanceCb = document.getElementById('auto-advance');
+    const counterEl = document.getElementById('counter');
+
+    function setStatus(msg, isError = true) {
+      status.style.color = isError ? '#b00' : '#060';
+      status.textContent = msg || '';
+    }
+
+    function guessExtension(mime) {
+      const map = {
+        'audio/webm': '.webm',
+        'audio/ogg': '.ogg',
+        'audio/opus': '.opus',
+        'audio/mpeg': '.mp3',
+        'audio/wav': '.wav',
+        'audio/x-wav': '.wav',
+        'audio/aac': '.aac',
+        'audio/flac': '.flac',
+        'audio/mp4': '.m4a',
+        'audio/3gpp': '.3gp',
+        'audio/3gpp2': '.3g2'
+      };
+      return map[mime] || '.bin';
+    }
+
+    function parseDataUriType(uri) {
+      const m = uri.match(/^data:([^;,]+)[;,]/i);
+      return m ? m[1] : '';
+    }
+
+    function enableSaveIfPossible() {
+      saveBtn.disabled = !(player.src || player.currentSrc);
+    }
+
+    // Existing "Load audio" functionality for the textarea
+    document.getElementById('load').addEventListener('click', () => {
+      const src = ta.value.trim();
+      if (!src) {
+        setStatus('Please paste a data URI.');
+        return;
+      }
+      if (!src.startsWith('data:audio')) {
+        setStatus('Warning: URI does not start with data:audio.', false);
+      } else {
+        setStatus('');
+      }
+      player.src = src;
+      enableSaveIfPossible();
+      player.play().catch(() => {
+        // Autoplay might be blocked
+      });
+    });
+
+    document.getElementById('clear').addEventListener('click', () => {
+      ta.value = '';
+      player.removeAttribute('src');
+      player.load();
+      saveBtn.disabled = true;
+      setStatus('');
+      clearPlaylist();
+    });
+
+    player.addEventListener('loadedmetadata', enableSaveIfPossible);
+
+    player.addEventListener('error', () => {
+      const e = player.error;
+      let msg = 'Playback error.';
+      if (e) {
+        switch (e.code) {
+          case MediaError.MEDIA_ERR_ABORTED: msg = 'Playback aborted.'; break;
+          case MediaError.MEDIA_ERR_NETWORK: msg = 'Network error.'; break;
+          case MediaError.MEDIA_ERR_DECODE: msg = 'Decoding error (codec not supported?).'; break;
+          case MediaError.MEDIA_ERR_SRC_NOT_SUPPORTED: msg = 'Source not supported.'; break;
+        }
+      }
+      setStatus(msg);
+    });
+
+    saveBtn.addEventListener('click', async () => {
+      const src = player.currentSrc || player.src;
+      if (!src) {
+        setStatus('No audio loaded to save.');
+        return;
+      }
+      try {
+        setStatus('Preparing download...', false);
+        const res = await fetch(src);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const blob = await res.blob();
+
+        let mime = blob.type || parseDataUriType(src) || 'application/octet-stream';
+        const ext = guessExtension(mime);
+        const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+        const filename = `audio-${timestamp}${ext}`;
+
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+
+        setTimeout(() => URL.revokeObjectURL(url), 2000);
+        setStatus('Saved.', false);
+        setTimeout(() => setStatus(''), 1200);
+      } catch (err) {
+        setStatus('Could not save audio: ' + (err && err.message ? err.message : String(err)));
+      }
+    });
+
+    // --------------------
+    // JSON / JSONL playlist logic
+    // --------------------
+    let playlist = [];      // array of { src: string, original: any, index: number }
+    let currentIndex = -1;  // -1 means none
+    let currentBaseUrl = ''; // for resolving relative original_audio when loaded via URL
+
+    function clearPlaylist() {
+      playlist = [];
+      currentIndex = -1;
+      currentBaseUrl = '';
+      updatePlaylistUI();
+    }
+
+    function updatePlaylistUI() {
+      const total = playlist.length;
+      const idx = currentIndex >= 0 ? currentIndex + 1 : 0;
+      counterEl.textContent = total ? `Item ${idx}/${total}` : '';
+      prevBtn.disabled = !(total && currentIndex > 0);
+      nextBtn.disabled = !(total && currentIndex < total - 1);
+    }
+
+    function resolveAudioSrc(src, baseUrl) {
+      if (!src || typeof src !== 'string') return '';
+      if (src.startsWith('data:')) return src;
+      try {
+        if (baseUrl) {
+          return new URL(src, baseUrl).href;
+        }
+        return new URL(src).href;
+      } catch {
+        return src;
+      }
+    }
+
+    // Parse text as either JSON array or JSON Lines (NDJSON).
+    function parsePlaylistTextToArray(text) {
+      if (typeof text !== 'string') throw new Error('Invalid playlist content.');
+      // Strip BOM
+      const clean = text.replace(/^\uFEFF/, '').trim();
+      if (!clean) return [];
+      // Try JSON array first
+      try {
+        const parsed = JSON.parse(clean);
+        if (Array.isArray(parsed)) return parsed;
+        throw new Error('Top-level JSON is not an array.');
+      } catch {
+        // Fallback to JSONL: parse each non-empty line as JSON
+        const lines = clean.split(/\r?\n/).map(l => l.trim()).filter(l => l && !l.startsWith('//') && !l.startsWith('#'));
+        const arr = [];
+        for (let i = 0; i < lines.length; i++) {
+          try {
+            arr.push(JSON.parse(lines[i]));
+          } catch (e) {
+            throw new Error(`Invalid JSONL at line ${i + 1}: ${e.message}`);
+          }
+        }
+        return arr;
+      }
+    }
+
+    function buildPlaylistFromArray(arr, baseUrl) {
+      if (!Array.isArray(arr)) throw new Error('Expected an array of objects.');
+      const items = [];
+      arr.forEach((item, i) => {
+        if (item && typeof item === 'object' && 'original_audio' in item) {
+          const raw = item.original_audio;
+          if (typeof raw === 'string') {
+            const src = resolveAudioSrc(raw, baseUrl);
+            items.push({ src, original: item, index: i });
+          }
+        }
+      });
+      if (!items.length) throw new Error('No valid entries with string field "original_audio" found.');
+      return items;
+    }
+
+    async function loadFromUrl(url) {
+      setStatus('Fetching playlist...', false);
+      const res = await fetch(url, { credentials: 'omit' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const text = await res.text();
+      const arr = parsePlaylistTextToArray(text);
+      return { arr, baseUrl: url };
+    }
+
+    function applyPlaylist(items, baseUrl) {
+      playlist = items;
+      currentBaseUrl = baseUrl || '';
+      currentIndex = 0;
+      setStatus(`Playlist loaded: ${playlist.length} item(s).`, false);
+      updatePlaylistUI();
+      loadCurrent(true);
+    }
+
+    function loadCurrent(autoplay = true) {
+      if (currentIndex < 0 || currentIndex >= playlist.length) return;
+      const item = playlist[currentIndex];
+      player.src = item.src;
+      updatePlaylistUI();
+      enableSaveIfPossible();
+      if (autoplay) {
+        player.play().catch(() => { /* autoplay might be blocked */ });
+      }
+    }
+
+    function next() {
+      if (currentIndex < playlist.length - 1) {
+        currentIndex++;
+        loadCurrent(true);
+      }
+    }
+
+    function prev() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        loadCurrent(true);
+      }
+    }
+
+    // Buttons/events for playlist
+    loadJsonUrlBtn.addEventListener('click', async () => {
+      const url = jsonUrlInput.value.trim();
+      if (!url) {
+        setStatus('Please enter a JSON/JSONL URL.');
+        return;
+      }
+      try {
+        const { arr, baseUrl } = await loadFromUrl(url);
+        const items = buildPlaylistFromArray(arr, baseUrl);
+        applyPlaylist(items, baseUrl);
+      } catch (err) {
+        setStatus('Failed to load playlist: ' + (err?.message || String(err)));
+      }
+    });
+
+    jsonFileInput.addEventListener('change', async (e) => {
+      const file = e.target.files && e.target.files[0];
+      if (!file) return;
+      try {
+        setStatus('Reading playlist file...', false);
+        const text = await file.text();
+        const arr = parsePlaylistTextToArray(text);
+        const items = buildPlaylistFromArray(arr, '');
+        applyPlaylist(items, '');
+        if (items.some(i => !i.src.startsWith('data:') && !/^[a-z]+:\/\//i.test(i.src))) {
+          setStatus('Loaded playlist. Note: relative URLs may not resolve when using a local file.', false);
+        }
+      } catch (err) {
+        setStatus('Failed to read playlist file: ' + (err?.message || String(err)));
+      } finally {
+        jsonFileInput.value = '';
+      }
+    });
+
+    prevBtn.addEventListener('click', prev);
+    nextBtn.addEventListener('click', next);
+
+    player.addEventListener('ended', () => {
+      if (autoAdvanceCb.checked && currentIndex >= 0 && currentIndex < playlist.length - 1) {
+        next();
+      }
+    });
+
+    // Keyboard shortcuts for convenience: Left/Right arrows navigate playlist
+    window.addEventListener('keydown', (e) => {
+      if (!playlist.length) return;
+      if (e.key === 'ArrowRight') {
+        next();
+      } else if (e.key === 'ArrowLeft') {
+        prev();
+      }
+    });
+  </script>
+</body>
+</html>

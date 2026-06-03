@@ -1,0 +1,31 @@
+{
+  "name": "continuouspersuasion-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "lint:js": "eslint --cache --ext .js,.mjs,.cjs,.vue frontend/src analysis/static",
+    "build:frontend": "npm run -w frontend build",
+    "dev:frontend": "npm run -w frontend dev",
+    "test:frontend": "npm run -w frontend test:unit"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.0",
+    "@eslint/js": "^9.15.0",
+    "eslint": "^10.0.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jest": "^29.15.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-sonarjs": "^4.0.0",
+    "eslint-plugin-vue": "^10.8.0",
+    "globals": "^16.3.0",
+    "jscpd": "^4.0.5",
+    "prettier": "^3.3.3",
+    "vue-eslint-parser": "^10.4.0"
+  },
+  "overrides": {
+    "minimatch": "^10.2.2"
+  }
+}

@@ -1,0 +1,8 @@
+name: env-continuouspersuasion
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python=3.11
+  - make
+  - ffmpeg

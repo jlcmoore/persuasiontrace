@@ -1,0 +1,43 @@
+# Deterministic exclusions for review-copy exports.
+# Paths are relative to the repository root.
+
+# Core mechanism and RL source.
+src/mechanism/
+src/rl/
+
+# Closely related scripts and tests.
+scripts/mechanism/
+scripts/rl/
+scripts/lambda/
+scripts/slurm/
+src/tests/mechanism/
+src/tests/rl/
+
+# Related top-level documentation and dependency extras.
+MECHANISM.md
+README_Training.md
+README_CLUSTER.md
+requirements-mechanism-rl.txt
+README_ANALYSIS_NONPAPER.md
+README_SIMULATION_NONPAPER.md
+non_release_readme_companion.md
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+
+# Related SLURM wrappers.
+scripts/slurm/run_rl_baseline.sbatch
+scripts/slurm/run_rl_eval_ft.sbatch
+scripts/slurm/run_rl_eval_grpo.sbatch
+scripts/slurm/run_rl_grpo.sbatch
+scripts/slurm/run_rl_sft.sbatch
+
+# Training workspace artifacts.
+train_experimeints/
+
+# RL training/eval config files.
+configs/rl_*.yml
+
+# Audio moderation datasets (may contain participant voice data).
+src/data/flagged_messages.jsonl
+src/data/non_flagged_messages.jsonl
