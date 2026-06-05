@@ -168,12 +168,13 @@ Basic tests:
 
 ## Citation
 
-If you use this repository, please cite the accompanying paper:
+If you use this repository, please cite [the accompanying paper](https://arxiv.org/abs/2606.05330):
 
 ```bibtex
 @misc{moore_model_2026,
   author = {Moore, Jared and Goodman, Noah and Haber, Nick and Kleiman-Weiner, Max},
   title = {A Model of Multi-turn Human Persuadability Using Probabilistic Belief Tracing},
   year = {2026}
+  url={https://arxiv.org/abs/2606.05330},  
 }
 ```
